@@ -1,0 +1,93 @@
+<svg viewBox="0 0 602.0 760.5" role="img" aria-label="Ground floor (EG), loop 2" class="plan"><g transform="translate(46 30)"><rect x="0" y="0" width="514.0" height="684.5" class="wall"/><rect x="13.6" y="23.6" width="158.7" height="280.2" class="room" shape-rendering="crispEdges"/>
+<text x="117.8" y="262.6" class="rname">Entrance hall</text><text x="117.8" y="278.6" class="rarea">11.6 m²</text>
+<rect x="172.4" y="23.6" width="319.3" height="638.6" class="room" shape-rendering="crispEdges"/>
+<text x="353.4" y="399.0" class="rname">Living / dining / kitchen</text><text x="353.4" y="415.0" class="rarea">46.5 m²</text>
+<rect x="172.4" y="122.8" width="52.7" height="102.3" class="chim" shape-rendering="crispEdges"/>
+<rect x="13.6" y="311.2" width="110.4" height="141.4" class="room" shape-rendering="crispEdges"/>
+<text x="96.1" y="374.2" class="rname">Bath</text><text x="96.1" y="390.2" class="rarea">4.1 m²</text>
+<rect x="131.4" y="311.2" width="93.6" height="141.4" class="room" shape-rendering="crispEdges"/>
+<text x="192.2" y="361.8" class="rname">Utility</text><text x="192.2" y="377.8" class="rarea">3.4 m²</text>
+<rect x="13.6" y="460.0" width="211.4" height="202.1" class="room" shape-rendering="crispEdges"/>
+<text x="99.2" y="476.5" class="rname">Bedroom</text><text x="99.2" y="492.5" class="rarea">11.1 m²</text>
+<rect x="13.6" y="303.8" width="218.9" height="7.4" class="wall" shape-rendering="crispEdges"/>
+<rect x="124.0" y="311.2" width="7.4" height="141.4" class="wall" shape-rendering="crispEdges"/>
+<rect x="225.1" y="311.2" width="7.4" height="350.9" class="wall" shape-rendering="crispEdges"/>
+<rect x="13.6" y="452.6" width="211.4" height="7.4" class="wall" shape-rendering="crispEdges"/>
+<rect x="296.4" y="0" width="122.1" height="22.3" class="win" shape-rendering="crispEdges"/>
+<line x1="296.4" y1="11.2" x2="418.5" y2="11.2" class="winl"/>
+<rect x="491.7" y="439.0" width="22.3" height="122.8" class="win" shape-rendering="crispEdges"/>
+<line x1="502.8" y1="439.0" x2="502.8" y2="561.7" class="winl"/>
+<rect x="67.0" y="662.2" width="120.3" height="22.3" class="win" shape-rendering="crispEdges"/>
+<line x1="67.0" y1="673.3" x2="187.2" y2="673.3" class="winl"/>
+<rect x="308.8" y="662.2" width="124.0" height="22.3" class="win" shape-rendering="crispEdges"/>
+<line x1="308.8" y1="673.3" x2="432.8" y2="673.3" class="winl"/>
+<rect x="13.6" y="96.1" width="63.9" height="140.7" class="stairs" shape-rendering="crispEdges"/>
+<line x1="13.6" y1="107.8" x2="77.5" y2="107.8" class="thin"/>
+<line x1="13.6" y1="119.6" x2="77.5" y2="119.6" class="thin"/>
+<line x1="13.6" y1="131.3" x2="77.5" y2="131.3" class="thin"/>
+<line x1="13.6" y1="143.0" x2="77.5" y2="143.0" class="thin"/>
+<line x1="13.6" y1="154.7" x2="77.5" y2="154.7" class="thin"/>
+<line x1="13.6" y1="166.5" x2="77.5" y2="166.5" class="thin"/>
+<line x1="13.6" y1="178.2" x2="77.5" y2="178.2" class="thin"/>
+<line x1="13.6" y1="189.9" x2="77.5" y2="189.9" class="thin"/>
+<line x1="13.6" y1="201.7" x2="77.5" y2="201.7" class="thin"/>
+<line x1="13.6" y1="213.4" x2="77.5" y2="213.4" class="thin"/>
+<line x1="13.6" y1="225.1" x2="77.5" y2="225.1" class="thin"/>
+<line x1="45.6" y1="230.8" x2="45.6" y2="102.1" class="arrow"/>
+<rect x="114.1" y="0.0" width="58.3" height="22.3" class="open" shape-rendering="crispEdges"/>
+<line x1="114.1" y1="11.2" x2="114.1" y2="69.4" class="leaf"/>
+<path d="M 172.4 11.2 A 58.3 58.3 0 0 1 114.1 69.4" class="arc"/>
+<text x="142.6" y="-7.4" class="note" text-anchor="middle">Entrance</text>
+<rect x="55.8" y="303.8" width="55.8" height="7.4" class="open" shape-rendering="crispEdges"/>
+<line x1="111.6" y1="307.5" x2="111.6" y2="363.3" class="leaf"/>
+<path d="M 55.8 307.5 A 55.8 55.8 0 0 0 111.6 363.3" class="arc"/>
+<rect x="225.1" y="328.6" width="7.4" height="55.8" class="open" shape-rendering="crispEdges"/>
+<line x1="228.8" y1="328.6" x2="284.6" y2="328.6" class="leaf"/>
+<path d="M 228.8 384.4 A 55.8 55.8 0 0 0 284.6 328.6" class="arc"/>
+<rect x="225.1" y="471.2" width="7.4" height="55.8" class="open" shape-rendering="crispEdges"/>
+<line x1="228.8" y1="471.2" x2="173.0" y2="471.2" class="leaf"/>
+<path d="M 228.8 527.0 A 55.8 55.8 0 0 1 173.0 471.2" class="arc"/>
+<rect x="135.2" y="86.8" width="37.2" height="130.2" class="f-ward" shape-rendering="crispEdges"/>
+<line x1="153.8" y1="86.8" x2="153.8" y2="217.0" class="thin"/>
+<text transform="translate(156.8 151.9) rotate(-90)" class="flabel">Wardrobe 2.1 m</text>
+<rect x="13.6" y="316.2" width="31.0" height="43.4" class="f-wet" shape-rendering="crispEdges"/>
+<text transform="translate(32.1 337.9) rotate(-90)" class="flabel">Basin</text>
+<rect x="13.6" y="378.2" width="62.0" height="74.4" class="f-wet" shape-rendering="crispEdges"/>
+<line x1="13.6" y1="378.2" x2="75.6" y2="452.6" class="thin"/><line x1="75.6" y1="378.2" x2="13.6" y2="452.6" class="thin"/>
+<text x="44.6" y="418.4" class="flabel">Shower</text>
+<rect x="93.0" y="410.4" width="24.8" height="42.2" class="f-wet" rx="4" shape-rendering="crispEdges"/>
+<text transform="translate(108.4 431.5) rotate(-90)" class="flabel">WC</text>
+<rect x="131.4" y="415.4" width="37.2" height="37.2" class="f-furn" shape-rendering="crispEdges"/>
+<text x="150.0" y="437.0" class="flabel">Washer</text>
+<rect x="168.6" y="415.4" width="37.2" height="37.2" class="f-furn" shape-rendering="crispEdges"/>
+<text x="187.2" y="437.0" class="flabel">Dryer</text>
+<rect x="131.4" y="316.2" width="24.8" height="80.6" class="f-ward" shape-rendering="crispEdges"/>
+<line x1="143.8" y1="316.2" x2="143.8" y2="396.8" class="thin"/>
+<text transform="translate(146.8 356.5) rotate(-90)" class="flabel">Shelves</text>
+<rect x="13.6" y="508.4" width="124.0" height="117.8" class="f-bed" shape-rendering="crispEdges"/>
+<text x="75.6" y="570.3" class="flabel">Bed 1.9 × 2.0</text>
+<rect x="19.8" y="514.6" width="24.8" height="49.6" class="pillow" rx="2" shape-rendering="crispEdges"/>
+<rect x="19.8" y="570.4" width="24.8" height="49.6" class="pillow" rx="2" shape-rendering="crispEdges"/>
+<rect x="13.6" y="471.2" width="31.0" height="31.0" class="f-furn" shape-rendering="crispEdges"/>
+<rect x="13.6" y="631.2" width="31.0" height="31.0" class="f-furn" shape-rendering="crispEdges"/>
+<rect x="187.9" y="539.4" width="37.2" height="122.8" class="f-ward" shape-rendering="crispEdges"/>
+<line x1="206.5" y1="539.4" x2="206.5" y2="662.2" class="thin"/>
+<text transform="translate(209.5 600.8) rotate(-90)" class="flabel">Wardrobe</text>
+<rect x="225.1" y="23.6" width="266.6" height="37.2" class="f-furn" shape-rendering="crispEdges"/>
+<text x="358.4" y="45.2" class="flabel">Kitchen run 4.3 m</text>
+<rect x="291.4" y="130.2" width="148.8" height="74.4" class="f-furn" shape-rendering="crispEdges"/>
+<text x="365.8" y="170.4" class="flabel">Island 2.4 × 1.2</text>
+<rect x="303.8" y="285.2" width="124.0" height="62.0" class="f-furn" shape-rendering="crispEdges"/>
+<text x="365.8" y="319.2" class="flabel">Table 2 × 1</text>
+<rect x="272.8" y="452.6" width="124.0" height="62.0" class="f-furn" shape-rendering="crispEdges"/>
+<text x="334.8" y="486.6" class="flabel">Sofa 2 × 1</text>
+<rect x="429.7" y="533.2" width="62.0" height="124.0" class="f-furn" shape-rendering="crispEdges"/>
+<text x="460.7" y="598.2" class="flabel">Sofa 2 × 1</text>
+<rect x="322.4" y="539.4" width="68.2" height="49.6" class="f-furn" shape-rendering="crispEdges"/>
+<text x="356.5" y="567.2" class="flabel">Table</text>
+<rect x="232.5" y="545.6" width="24.8" height="105.4" class="f-furn" shape-rendering="crispEdges"/>
+<text transform="translate(247.9 598.3) rotate(-90)" class="flabel">TV</text>
+<line x1="225.1" y1="-15.5" x2="491.7" y2="-15.5" class="dim"/><line x1="225.1" y1="-20.5" x2="225.1" y2="-10.5" class="dim"/><line x1="491.7" y1="-20.5" x2="491.7" y2="-10.5" class="dim"/><text x="358.4" y="-20.5" class="dimt" text-anchor="middle">4.30</text>
+<line x1="-21.7" y1="460.0" x2="-21.7" y2="662.2" class="dim"/><line x1="-26.7" y1="460.0" x2="-16.7" y2="460.0" class="dim"/><line x1="-26.7" y1="662.2" x2="-16.7" y2="662.2" class="dim"/><text transform="translate(-27.7 561.1) rotate(-90)" class="dimt" text-anchor="middle">3.26</text>
+<line x1="-21.7" y1="311.2" x2="-21.7" y2="452.6" class="dim"/><line x1="-26.7" y1="311.2" x2="-16.7" y2="311.2" class="dim"/><line x1="-26.7" y1="452.6" x2="-16.7" y2="452.6" class="dim"/><text transform="translate(-27.7 381.9) rotate(-90)" class="dimt" text-anchor="middle">2.28</text>
+<line x1="13.6" y1="706.2" x2="225.1" y2="706.2" class="dim"/><line x1="13.6" y1="701.2" x2="13.6" y2="711.2" class="dim"/><line x1="225.1" y1="701.2" x2="225.1" y2="711.2" class="dim"/><text x="119.4" y="701.2" class="dimt" text-anchor="middle">3.41</text></g></svg>

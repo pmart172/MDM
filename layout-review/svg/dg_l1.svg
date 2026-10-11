@@ -1,0 +1,81 @@
+<svg viewBox="0 0 530.1 584.4" role="img" aria-label="Top floor (DG), loop 1" class="plan"><g transform="translate(46 30)"><rect x="0" y="0" width="442.1" height="508.4" class="wall"/><rect x="13.6" y="21.7" width="161.2" height="204.0" class="room" shape-rendering="crispEdges"/>
+<text x="99.2" y="188.2" class="rname">Hall / stairs</text><text x="99.2" y="204.2" class="rarea">8.6 m²</text>
+<rect x="189.7" y="21.7" width="228.8" height="167.4" class="room" shape-rendering="crispEdges"/>
+<text x="304.1" y="104.5" class="rname">Walk-in closet</text><text x="304.1" y="120.5" class="rarea">10.0 m²</text>
+<rect x="182.3" y="196.5" width="236.2" height="289.5" class="room" shape-rendering="crispEdges"/>
+<text x="341.0" y="262.6" class="rname">Bedroom</text><text x="341.0" y="278.6" class="rarea">17.8 m²</text>
+<rect x="13.6" y="233.1" width="161.2" height="253.0" class="room" shape-rendering="crispEdges"/>
+<text x="68.2" y="399.0" class="rname">Bath</text><text x="68.2" y="415.0" class="rarea">10.6 m²</text>
+<rect x="174.8" y="21.7" width="14.9" height="174.8" class="wall" shape-rendering="crispEdges"/>
+<rect x="174.8" y="196.5" width="7.4" height="289.5" class="wall" shape-rendering="crispEdges"/>
+<rect x="182.3" y="189.1" width="236.2" height="7.4" class="wall" shape-rendering="crispEdges"/>
+<rect x="13.6" y="225.7" width="161.2" height="7.4" class="wall" shape-rendering="crispEdges"/>
+<rect x="174.8" y="21.7" width="14.9" height="99.2" class="chim" shape-rendering="crispEdges"/>
+<rect x="40.9" y="0" width="114.1" height="22.3" class="win" shape-rendering="crispEdges"/>
+<line x1="40.9" y1="11.2" x2="155.0" y2="11.2" class="winl"/>
+<rect x="419.7" y="64.5" width="22.3" height="124.6" class="win" shape-rendering="crispEdges"/>
+<line x1="430.9" y1="64.5" x2="430.9" y2="189.1" class="winl"/>
+<rect x="419.7" y="307.5" width="22.3" height="120.3" class="win" shape-rendering="crispEdges"/>
+<line x1="430.9" y1="307.5" x2="430.9" y2="427.8" class="winl"/>
+<rect x="49.6" y="486.1" width="125.9" height="22.3" class="win" shape-rendering="crispEdges"/>
+<line x1="49.6" y1="497.2" x2="175.5" y2="497.2" class="winl"/>
+<rect x="254.2" y="486.1" width="126.5" height="22.3" class="win" shape-rendering="crispEdges"/>
+<line x1="254.2" y1="497.2" x2="380.7" y2="497.2" class="winl"/>
+<rect x="13.6" y="21.7" width="63.9" height="139.5" class="stairs" shape-rendering="crispEdges"/>
+<line x1="13.6" y1="33.3" x2="77.5" y2="33.3" class="thin"/>
+<line x1="13.6" y1="44.9" x2="77.5" y2="44.9" class="thin"/>
+<line x1="13.6" y1="56.6" x2="77.5" y2="56.6" class="thin"/>
+<line x1="13.6" y1="68.2" x2="77.5" y2="68.2" class="thin"/>
+<line x1="13.6" y1="79.8" x2="77.5" y2="79.8" class="thin"/>
+<line x1="13.6" y1="91.5" x2="77.5" y2="91.5" class="thin"/>
+<line x1="13.6" y1="103.1" x2="77.5" y2="103.1" class="thin"/>
+<line x1="13.6" y1="114.7" x2="77.5" y2="114.7" class="thin"/>
+<line x1="13.6" y1="126.3" x2="77.5" y2="126.3" class="thin"/>
+<line x1="13.6" y1="138.0" x2="77.5" y2="138.0" class="thin"/>
+<line x1="13.6" y1="149.6" x2="77.5" y2="149.6" class="thin"/>
+<line x1="45.6" y1="155.2" x2="45.6" y2="27.7" class="arrow"/>
+<rect x="77.5" y="31.0" width="52.7" height="124.0" class="void" shape-rendering="crispEdges"/>
+<rect x="174.8" y="125.9" width="14.9" height="55.8" class="open" shape-rendering="crispEdges"/>
+<line x1="182.3" y1="125.9" x2="238.1" y2="125.9" class="leaf"/>
+<path d="M 182.3 181.7 A 55.8 55.8 0 0 0 238.1 125.9" class="arc"/>
+<rect x="114.1" y="225.7" width="55.8" height="7.4" class="open" shape-rendering="crispEdges"/>
+<line x1="169.9" y1="229.4" x2="169.9" y2="285.2" class="leaf"/>
+<path d="M 114.1 229.4 A 55.8 55.8 0 0 0 169.9 285.2" class="arc"/>
+<rect x="353.4" y="189.1" width="55.8" height="7.4" class="open" shape-rendering="crispEdges"/>
+<line x1="409.2" y1="192.8" x2="409.2" y2="248.6" class="leaf"/>
+<path d="M 353.4 192.8 A 55.8 55.8 0 0 0 409.2 248.6" class="arc"/>
+<rect x="189.7" y="21.7" width="228.8" height="37.2" class="f-ward" shape-rendering="crispEdges"/>
+<line x1="189.7" y1="40.3" x2="418.5" y2="40.3" class="thin"/>
+<text x="304.1" y="43.3" class="flabel">Wardrobe 3.7 m</text>
+<rect x="189.7" y="58.9" width="37.2" height="62.0" class="f-ward" shape-rendering="crispEdges"/>
+<line x1="208.3" y1="58.9" x2="208.3" y2="120.9" class="thin"/>
+<rect x="248.0" y="151.9" width="99.2" height="37.2" class="f-ward" shape-rendering="crispEdges"/>
+<line x1="248.0" y1="170.5" x2="347.2" y2="170.5" class="thin"/>
+<text x="297.6" y="173.5" class="flabel">Wardrobe 1.6 m</text>
+<rect x="387.5" y="80.6" width="31.0" height="80.6" class="f-furn" shape-rendering="crispEdges"/>
+<text transform="translate(406.0 120.9) rotate(-90)" class="flabel">Table</text>
+<rect x="182.3" y="303.8" width="124.0" height="124.0" class="f-bed" shape-rendering="crispEdges"/>
+<text x="244.3" y="368.8" class="flabel">Bed 2.0 × 2.0</text>
+<rect x="188.5" y="310.0" width="24.8" height="52.7" class="pillow" rx="2" shape-rendering="crispEdges"/>
+<rect x="188.5" y="368.9" width="24.8" height="52.7" class="pillow" rx="2" shape-rendering="crispEdges"/>
+<rect x="182.3" y="266.6" width="31.0" height="31.0" class="f-furn" shape-rendering="crispEdges"/>
+<rect x="182.3" y="434.0" width="31.0" height="31.0" class="f-furn" shape-rendering="crispEdges"/>
+<rect x="285.2" y="448.9" width="74.4" height="37.2" class="f-furn" shape-rendering="crispEdges"/>
+<text x="322.4" y="470.5" class="flabel">Desk</text>
+<rect x="387.5" y="310.0" width="31.0" height="111.6" class="f-furn" shape-rendering="crispEdges"/>
+<text transform="translate(406.0 365.8) rotate(-90)" class="flabel">Dresser</text>
+<rect x="13.6" y="233.1" width="86.8" height="74.4" class="f-wet" shape-rendering="crispEdges"/>
+<line x1="13.6" y1="233.1" x2="100.4" y2="307.5" class="thin"/><line x1="100.4" y1="233.1" x2="13.6" y2="307.5" class="thin"/>
+<text x="57.0" y="273.3" class="flabel">Walk-in shower 1.4×1.2</text>
+<rect x="140.7" y="316.2" width="34.1" height="93.0" class="f-wet" shape-rendering="crispEdges"/>
+<text transform="translate(160.8 362.7) rotate(-90)" class="flabel">2 basins</text>
+<rect x="13.6" y="325.5" width="42.2" height="24.8" class="f-wet" rx="4" shape-rendering="crispEdges"/>
+<text x="34.7" y="340.9" class="flabel">WC</text>
+<rect x="62.0" y="436.5" width="111.6" height="49.6" class="f-wet" rx="4" shape-rendering="crispEdges"/>
+<text x="117.8" y="464.3" class="flabel">Tub 1.8×0.8</text>
+<rect x="13.6" y="372.0" width="6.2" height="55.8" class="f-rad" shape-rendering="crispEdges"/>
+<line x1="182.3" y1="530.1" x2="418.5" y2="530.1" class="dim"/><line x1="182.3" y1="525.1" x2="182.3" y2="535.1" class="dim"/><line x1="418.5" y1="525.1" x2="418.5" y2="535.1" class="dim"/><text x="300.4" y="525.1" class="dimt" text-anchor="middle">3.81</text>
+<line x1="13.6" y1="530.1" x2="174.8" y2="530.1" class="dim"/><line x1="13.6" y1="525.1" x2="13.6" y2="535.1" class="dim"/><line x1="174.8" y1="525.1" x2="174.8" y2="535.1" class="dim"/><text x="94.2" y="525.1" class="dimt" text-anchor="middle">2.60</text>
+<line x1="-21.7" y1="196.5" x2="-21.7" y2="486.1" class="dim"/><line x1="-26.7" y1="196.5" x2="-16.7" y2="196.5" class="dim"/><line x1="-26.7" y1="486.1" x2="-16.7" y2="486.1" class="dim"/><text transform="translate(-27.7 341.3) rotate(-90)" class="dimt" text-anchor="middle">4.67</text>
+<line x1="460.7" y1="21.7" x2="460.7" y2="189.1" class="dim"/><line x1="455.7" y1="21.7" x2="465.7" y2="21.7" class="dim"/><line x1="455.7" y1="189.1" x2="465.7" y2="189.1" class="dim"/><text transform="translate(454.7 105.4) rotate(-90)" class="dimt" text-anchor="middle">2.70</text>
+<line x1="0" y1="-15.5" x2="442.1" y2="-15.5" class="dim"/><line x1="0" y1="-20.5" x2="0" y2="-10.5" class="dim"/><line x1="442.1" y1="-20.5" x2="442.1" y2="-10.5" class="dim"/><text x="221.0" y="-20.5" class="dimt" text-anchor="middle">7.13</text></g></svg>
