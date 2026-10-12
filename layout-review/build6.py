@@ -66,7 +66,7 @@ def idx_rows():
     for cid, c in CONFIGS.items():
         f = FACTS[cid]
         rows.append([f'<b>{c["label"]}</b>', f["Storeys"], f["Plate per house"], f["Footprint · GRZ use (0.25 → 120.8 m²)"], f["Wohnfläche, estimate"], f["Bedrooms"], f["Master suite (bed · dressing · bath)"], f["Altkönigstraße brief"],
-                     f'<button class="btn" data-cmp="{cid}">Compare</button> <a class="btn btn-link" href="{c["read"]}">Read</a>'])
+                     f'<a class="btn" href="#version/{cid}">View</a> <button class="btn" data-cmp="{cid}">Compare</button> <a class="btn btn-link" href="{c["read"]}">Read</a>'])
     return rows
 index_html = table(["Version", "Storeys", "Plate", "Footprint · GRZ", "Wohnfläche", "Bedrooms", "Master suite", "Brief", ""], idx_rows(), cls="idx")
 floor_rows = [
@@ -108,6 +108,12 @@ NAV_CSS = r"""
 .cmp-head{display:grid;gap:14px;margin:10px 0}
 .cmp-head div{font:600 14px var(--display);color:var(--ink);padding:8px 10px;border-left:4px solid var(--accent);background:var(--paper2);border-radius:0 8px 8px 0}
 .view-wrap{max-width:1100px;margin:0 auto;padding:18px 16px 40px}
+.ver-head{font:600 22px var(--display);color:var(--ink);margin:6px 0 10px;letter-spacing:-.01em}
+.ver-fig{margin:18px 0;background:var(--paper2);border:1px solid var(--line);border-radius:10px;padding:10px}
+.ver-fig svg{width:100%;height:auto;display:block;max-width:940px;margin:0 auto}
+.ver-fig figcaption{font-size:14px;line-height:1.5;color:var(--ink);padding:8px 4px 2px;max-width:none}
+.ver-fig .cap{font:600 11px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+#ver-select{max-width:100%}
 @media (max-width:700px){.cmp-grid,.cmp-head{grid-template-columns:1fr !important}}
 </style>
 """
@@ -126,6 +132,7 @@ function parseHash(){
   const [view, rest] = h.split('/');
   if (view === 'compare') return {view, sel: rest ? rest.split('+').filter(k => CONFIGS[k]) : []};
   if (view === 'read') return {view, anchor: rest};
+  if (view === 'version') return {view, id: CONFIGS[rest] ? rest : Object.keys(CONFIGS)[0]};
   return {view:'index'};
 }
 function setHash(view, extra){ const v = view + (extra ? '/' + extra : ''); if (location.hash !== '#' + v) history.replaceState(null, '', '#' + v); }
@@ -159,18 +166,41 @@ function renderCompare(){
   h += '<p class="cmp-note">Plans at one scale per level; the scale bar on each drawing is 2 m. Read the full text of a version through its Read button on the Index.</p>';
   out.innerHTML = h;
 }
+let cur = Object.keys(CONFIGS)[0];
+function renderVersion(){
+  const c = CONFIGS[cur], out = $('#ver-out');
+  $('#ver-select').value = cur;
+  let h = '<div class="ver-head">' + c.label + '</div>';
+  h += '<div class="tbl"><table><tbody>' + ROWS.map(r => '<tr><td>' + r + '</td><td>' + (FACTS[cur][r] || '—') + '</td></tr>').join('') + '</tbody></table></div>';
+  LEVELS.forEach(lvl => {
+    const key = c.levels[lvl]; if (!key) return;
+    const src = document.getElementById('svg-' + key); if (!src) return;
+    const fig = src.closest('figure'); const fc = fig ? fig.querySelector('figcaption') : null;
+    h += '<figure class="ver-fig"><p class="cap">' + lvl + ' · ' + (src.getAttribute('aria-label') || key) + '</p>' + src.outerHTML.replace(/ id="svg-[^"]+"/, '') + (fc ? '<figcaption>' + fc.innerHTML + '</figcaption>' : '') + '</figure>';
+  });
+  h += '<p class="cmp-note"><a class="btn" href="' + c.read + '">Read the full text of this version</a> <a class="btn" href="#compare/' + cur + '">Compare it with others</a></p>';
+  out.innerHTML = h;
+}
 function route(){
   const p = parseHash();
+  if (p.view === 'version'){ cur = p.id; renderVersion(); showView('version'); return; }
   if (p.view === 'compare'){ if (p.sel) sel = p.sel.slice(0, MAX); renderCompare(); showView('compare'); try{ localStorage.setItem('mdm-cmp', JSON.stringify(sel)); }catch(e){} }
   else if (p.view === 'read'){ showView('read'); if (p.anchor){ const el = document.getElementById(p.anchor); if (el) setTimeout(() => el.scrollIntoView({block:'start'}), 30); } }
   else showView('index');
 }
 document.addEventListener('click', e => {
-  const tab = e.target.closest('.tab'); if (tab){ e.preventDefault(); if (tab.dataset.view === 'compare') setHash('compare', sel.join('+')); else setHash(tab.dataset.view); route(); return; }
+  const tab = e.target.closest('.tab'); if (tab){ e.preventDefault(); if (tab.dataset.view === 'compare') setHash('compare', sel.join('+')); else if (tab.dataset.view === 'version') setHash('version', cur); else setHash(tab.dataset.view); route(); return; }
   const cmp = e.target.closest('[data-cmp]'); if (cmp){ e.preventDefault(); const id = cmp.dataset.cmp; if (!sel.includes(id)){ sel.push(id); if (sel.length > MAX) sel.shift(); } setHash('compare', sel.join('+')); route(); return; }
   const chip = e.target.closest('.chip'); if (chip){ const id = chip.dataset.id; if (sel.includes(id)) sel = sel.filter(x => x !== id); else { sel.push(id); if (sel.length > MAX) sel.shift(); } setHash('compare', sel.join('+')); renderCompare(); return; }
   const clr = e.target.closest('#cmp-clear'); if (clr){ sel = []; setHash('compare'); renderCompare(); return; }
 });
+document.addEventListener('change', e => { if (e.target.id === 'ver-select'){ setHash('version', e.target.value); route(); } });
+document.addEventListener('click', e => {
+  const ids = Object.keys(CONFIGS); const i = ids.indexOf(cur);
+  if (e.target.closest('#ver-prev')){ setHash('version', ids[(i - 1 + ids.length) %% ids.length]); route(); }
+  if (e.target.closest('#ver-next')){ setHash('version', ids[(i + 1) %% ids.length]); route(); }
+});
+$('#ver-select').innerHTML = Object.keys(CONFIGS).map(k => '<option value="' + k + '">' + CONFIGS[k].label + '</option>').join('');
 window.addEventListener('hashchange', route);
 try{ const s = JSON.parse(localStorage.getItem('mdm-cmp') || '[]'); if (Array.isArray(s)) sel = s.filter(k => CONFIGS[k]).slice(0, MAX); }catch(e){}
 if (!location.hash && sel.length === 0) sel = ['today','t4'];
@@ -181,7 +211,7 @@ route();
 
 page = f"""{head_part}{NAV_CSS}
 <nav class="topnav" aria-label="Views"><span class="brand">Altkönigstraße 122 · floor plan review</span>
-<button class="tab" data-view="index" aria-selected="true">Index</button><button class="tab" data-view="compare" aria-selected="false">Compare</button><button class="tab" data-view="read" aria-selected="false">Full review</button></nav>
+<button class="tab" data-view="index" aria-selected="true">Index</button><button class="tab" data-view="version" aria-selected="false">Version</button><button class="tab" data-view="compare" aria-selected="false">Compare</button><button class="tab" data-view="read" aria-selected="false">Full review</button></nav>
 <section id="view-index" class="view on"><div class="view-wrap">
 <div class="col"><p class="eyebrow">Sixth edition · 12 October 2026</p>
 <h1>Every version at a glance</h1>
@@ -190,6 +220,10 @@ page = f"""{head_part}{NAV_CSS}
 <div class="col"><h3>Floor options for the three-storey house</h3><p class="small">These swap one floor of today's design; the whole-house rows above combine them. Scores are the decision matrices from the review (layout, hotel benchmark, rules, cost, risk).</p></div>
 {floors_html}
 <div class="col"><p class="small">Net floor areas are the clear areas of the rooms as drawn; the Wohnfläche figures are estimates after WoFlV without terraces. The three earlier studies T2 and T3 stay listed because their ideas carried into T4, but they do not fit this plot.</p></div>
+</div></section>
+<section id="view-version" class="view"><div class="view-wrap">
+<div class="col"><h2 style="margin-top:0">One version</h2><p class="small">Pick a version; its plans follow at full width with their captions, and the facts above them. <button class="btn" id="ver-prev">◀ previous</button> <select id="ver-select" class="btn"></select> <button class="btn" id="ver-next">next ▶</button></p></div>
+<div id="ver-out"></div>
 </div></section>
 <section id="view-compare" class="view"><div class="view-wrap">
 <div class="col"><h2 style="margin-top:0">Compare</h2><p class="small">Up to three versions. Plans appear level by level at one scale; the facts table reads across. <button class="btn" id="cmp-clear">Clear</button></p></div>
