@@ -54,6 +54,7 @@ class Plan:
         self._t("lab", cx, cy, name, "rname", dy=-5)
         self._t("lab", cx, cy, f"{a:.1f} m²", "rarea", dy=10)
         if sub != "": self._t("lab", cx, cy, sub if sub else f"{x1-x0:.2f} × {y1-y0:.2f}", "rsub", dy=23)
+    def floor(self, x0, y0, x1, y1): self._r("floor", x0, y0, x1, y1, "floor", crisp=True)
     def wall(self, x0, y0, x1, y1, new=False):
         self._r("walls", x0, y0, x1, y1, "wall-new" if new else "wall", crisp=True); self.walls.append((x0,y0,x1,y1))
     def screen(self, x0, y0, x1, y1, h=1.2):
@@ -214,7 +215,7 @@ class Plan:
         self._r("fix", x0, y0, x1, y1, "f-furn")
         horiz = (x1-x0) >= (y1-y0); Lw = (x1-x0) if horiz else (y1-y0)
         for i in range(basins):
-            f = (i+1)/(basins+1)
+            f = (0.27, 0.73)[i] if basins == 2 else (i+1)/(basins+1)
             if horiz:
                 cx = x0 + Lw*f; cy = (y0+y1)/2
                 self._r("fix", cx-0.23, cy-0.17, cx+0.23, cy+0.17, "basin", rx=7)
@@ -298,13 +299,13 @@ class Plan:
         self._lab(x0, y0, x1, y1, label); self._reg(room, "appliance", (x0,y0,x1,y1), label=label, tall=True)
     def radiator(self, room, x0, y0, x1, y1):
         self._r("fix", x0, y0, x1, y1, "f-rad")
-    def stairs(self, x0, y0, x1, y1, n=13, up="S"):
+    def stairs(self, x0, y0, x1, y1, n=13, up="S", label="existing stair, as drawn"):
         self._r("fix", x0, y0, x1, y1, "stairs")
         for i in range(1, n): y = y0 + (y1-y0)*i/n; self._l("fix", x0, y, x1, y, "hair")
         xm = (x0+x1)/2
         if up == "S": self._l("fix", xm, y0+0.12, xm, y1-0.12, "arrow"); self._t("lab", xm, y0+0.32, "up", "tiny")
         else: self._l("fix", xm, y1-0.12, xm, y0+0.12, "arrow"); self._t("lab", xm, y1-0.2, "up", "tiny")
-        self._t("lab", xm, (y0+y1)/2 + 0.05, "existing stair, as drawn", "tiny", rot=-90)
+        self._t("lab", xm, (y0+y1)/2 + 0.05, label, "tiny", rot=-90)
         self.fx.append(dict(room="stairs", kind="stairs", box=(x0,y0,x1,y1), facing=None, label="stairs", tall=False))
     def void(self, x0, y0, x1, y1, label="void"):
         self._r("fix", x0, y0, x1, y1, "void"); self._lab(x0, y0, x1, y1, label, "tiny")

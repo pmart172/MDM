@@ -26,10 +26,10 @@
 <rect x="209.3" y="22.4" width="24.3" height="11.5" class="f-wet"/>
 <ellipse cx="221.4" cy="49.3" rx="10.9" ry="14.7" class="bowl"/>
 <rect x="278.4" y="22.4" width="89.6" height="35.2" class="f-furn"/>
-<rect x="293.5" y="29.1" width="29.4" height="21.8" class="basin" rx="7"/>
-<circle cx="308.3" cy="28.2" r="1.9" class="drain"/>
-<rect x="323.4" y="29.1" width="29.4" height="21.8" class="basin" rx="7"/>
-<circle cx="338.1" cy="28.2" r="1.9" class="drain"/>
+<rect x="287.9" y="29.1" width="29.4" height="21.8" class="basin" rx="7"/>
+<circle cx="302.6" cy="28.2" r="1.9" class="drain"/>
+<rect x="329.1" y="29.1" width="29.4" height="21.8" class="basin" rx="7"/>
+<circle cx="343.8" cy="28.2" r="1.9" class="drain"/>
 <line x1="281.6" y1="23.7" x2="364.8" y2="23.7" class="mirror"/>
 <rect x="380.8" y="38.4" width="51.2" height="115.2" class="f-wet" rx="4"/>
 <rect x="385.9" y="43.5" width="41.0" height="105.0" class="f-wet-in" rx="9"/>

@@ -36,10 +36,10 @@
 <rect x="211.2" y="487.7" width="44.8" height="44.8" class="f-furn"/>
 <circle cx="233.6" cy="510.1" r="13.4" class="f-ring"/>
 <rect x="232.3" y="540.8" width="35.2" height="89.6" class="f-furn"/>
-<rect x="239.0" y="555.9" width="21.8" height="29.4" class="basin" rx="7"/>
-<circle cx="261.8" cy="570.7" r="1.9" class="drain"/>
-<rect x="239.0" y="585.8" width="21.8" height="29.4" class="basin" rx="7"/>
-<circle cx="261.8" cy="600.5" r="1.9" class="drain"/>
+<rect x="239.0" y="550.3" width="21.8" height="29.4" class="basin" rx="7"/>
+<circle cx="261.8" cy="565.0" r="1.9" class="drain"/>
+<rect x="239.0" y="591.5" width="21.8" height="29.4" class="basin" rx="7"/>
+<circle cx="261.8" cy="606.2" r="1.9" class="drain"/>
 <line x1="266.2" y1="544.0" x2="266.2" y2="627.2" class="mirror"/>
 <rect x="14.1" y="597.8" width="76.8" height="85.8" class="f-wet"/>
 <circle cx="28.2" cy="611.8" r="3.2" class="drain"/>
