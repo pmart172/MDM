@@ -301,11 +301,18 @@ class Plan:
         self._r("fix", x0, y0, x1, y1, "f-rad")
     def stairs(self, x0, y0, x1, y1, n=13, up="S", label="existing stair, as drawn"):
         self._r("fix", x0, y0, x1, y1, "stairs")
-        for i in range(1, n): y = y0 + (y1-y0)*i/n; self._l("fix", x0, y, x1, y, "hair")
-        xm = (x0+x1)/2
-        if up == "S": self._l("fix", xm, y0+0.12, xm, y1-0.12, "arrow"); self._t("lab", xm, y0+0.32, "up", "tiny")
-        else: self._l("fix", xm, y1-0.12, xm, y0+0.12, "arrow"); self._t("lab", xm, y1-0.2, "up", "tiny")
-        self._t("lab", xm, (y0+y1)/2 + 0.05, label, "tiny", rot=-90)
+        if up in ("S", "N"):
+            for i in range(1, n): y = y0 + (y1-y0)*i/n; self._l("fix", x0, y, x1, y, "hair")
+            xm = (x0+x1)/2
+            if up == "S": self._l("fix", xm, y0+0.12, xm, y1-0.12, "arrow"); self._t("lab", xm, y0+0.32, "up", "tiny")
+            else: self._l("fix", xm, y1-0.12, xm, y0+0.12, "arrow"); self._t("lab", xm, y1-0.2, "up", "tiny")
+            self._t("lab", xm, (y0+y1)/2 + 0.05, label, "tiny", rot=-90)
+        else:
+            for i in range(1, n): x = x0 + (x1-x0)*i/n; self._l("fix", x, y0, x, y1, "hair")
+            ym = (y0+y1)/2
+            if up == "E": self._l("fix", x0+0.12, ym, x1-0.12, ym, "arrow"); self._t("lab", x0+0.3, ym-0.12, "up", "tiny")
+            else: self._l("fix", x1-0.12, ym, x0+0.12, ym, "arrow"); self._t("lab", x1-0.3, ym-0.12, "up", "tiny")
+            self._t("lab", (x0+x1)/2, y1+0.2, label, "tiny")
         self.fx.append(dict(room="stairs", kind="stairs", box=(x0,y0,x1,y1), facing=None, label="stairs", tall=False))
     def void(self, x0, y0, x1, y1, label="void"):
         self._r("fix", x0, y0, x1, y1, "void"); self._lab(x0, y0, x1, y1, label, "tiny")

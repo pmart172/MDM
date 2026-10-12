@@ -1,7 +1,7 @@
 """Compact geometry dump of one plan: python3 dump_plan.py t4_eg   (all coordinates in metres from the outer north-west corner)"""
 import sys, importlib, os
 key = sys.argv[1]
-mod = {"t1": "floors2", "t2": "floors2", "t3": "floors3", "t4": "floors4"}.get(key[:2], "floors")
+mod = {"t1": "floors2", "t2": "floors2", "t3": "floors3", "t4": "floors4", "t5": "floors5"}.get(key[:2], "floors")
 m = importlib.import_module(mod); p = m.ALL[key](); issues = p.check()
 print(f"PLAN {key}: plate {p.W} x {p.H} outside; interior x 0.22..{p.W-0.36:.2f}, y 0.36..{p.H-0.36:.2f}; geometry-check issues: {len(issues)} {issues}")
 print("ROOMS (x0 y0 x1 y1 area):")

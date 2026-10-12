@@ -1,8 +1,8 @@
 """Fourth edition: adds the two-storey version (T1 same plate, T2 master down) in front of the three-storey review."""
-import build3, floors2, floors3, floors4, floors, siteplan
+import build3, floors2, floors3, floors4, floors5, floors, siteplan
 from build3 import table, OK, WARN, BAD, LEGEND, n
 
-plans2 = {k: f() for k, f in list(floors2.ALL.items()) + list(floors3.ALL.items()) + list(floors4.ALL.items())}
+plans2 = {k: f() for k, f in list(floors2.ALL.items()) + list(floors3.ALL.items()) + list(floors4.ALL.items()) + list(floors5.ALL.items())}
 issues2 = {k: p.check() for k, p in plans2.items()}
 svg2 = {k: p.svg() for k, p in plans2.items()}
 
@@ -21,7 +21,7 @@ def clear2(key):
         rows.append([room, label, facing, f"#:{min(dep,3):.2f}", f"#:{mn:.2f} / {cf:.2f}", status])
     return table(["Room", "Fixture", "Free side", "Free depth m", "VDI min / comfort", "Status"], rows)
 
-cur_net = net(["eg_current", "og_current", "dg_current"]); t1_net = net(["t1_eg", "t1_og"]); t2_net = net(["t2_eg", "t2_og"]); t3_net = net(["t3_eg", "t3_og"]); t3_kg_net = net(["t3_kg"]); t4_net = net(["t4_eg", "t4_og"]); t4_kg_net = net(["t4_kg"])
+cur_net = net(["eg_current", "og_current", "dg_current"]); t1_net = net(["t1_eg", "t1_og"]); t2_net = net(["t2_eg", "t2_og"]); t3_net = net(["t3_eg", "t3_og"]); t3_kg_net = net(["t3_kg"]); t4_net = net(["t4_eg", "t4_og"]); t4_kg_net = net(["t4_kg"]); t5_net = net(["t5_eg", "t5_og"]); t5_kg_net = net(["t5_kg"])
 cur_gross = 8.29*11.04*2 + 7.13*8.20; t1_gross = 8.29*11.04*2; t2_gross = 10.29*12.04*2; t3_gross = 12.29*12.04*2; t4_gross = 8.29*14.07*2
 site_svg, site_dist = siteplan.svg()
 site_svg_v, site_dist_v = siteplan.svg(offset=1.93, depth=13.07)
@@ -117,15 +117,26 @@ section = f"""
 ])}
 <p>The offset costs 8 m² of footprint per house at 1.93 m, which is 13 m² of Wohnfläche and takes T4 from 187 to about 174 m², the figure the briefing itself expected for a two-storey pair; Rötha's full 2.50 m costs 13 m² of footprint and lands at about 166 m². What it buys is the thing a Doppelhaus usually lacks: a terrace that is not shared with the neighbour's, side light in the hall, and a street front that reads as two houses. If the 190 m² target matters more than the offset, T4 stands; if the house you live in should feel like a detached house from the garden, T4v is the better pair, and the plans drawn above apply to it unchanged apart from the two side windows and the 1.0 m shorter rooms on the south. Rötha's façade language, a white upper box over a dark glazed base, sits well with your own concept of dark Klinker on the garden and side walls under a white street front; the difference is that in Rötha the dark base is mostly glass.</p>
 
+<h3 id="opt-T5">T5 · the Rötha stair: a straight flight parallel to the street</h3>
+<p>The move that makes the Rötha plan what it is: the straight stair runs across the house behind the entrance band, parallel to the street, with its open side to the living room, and upstairs it lands in a gallery that gets its own window on the outer wall. T5 takes that stair and keeps everything else of T4's envelope (8.29 × 14.07 m, 97 % of GRZ and GFZ, WU basement; the offset of T4v can be applied to it in the same way). Three things change with it. The party wall is freed, so the ground-floor bedroom moves to the quiet south-west corner with its en suite on the party wall, and the kitchen moves east behind the mudroom, where the garage door, a 13 m² mudroom-pantry (the HWR the brief asks for, above ground) and the cellar flight sit together as one service corner. The living room becomes one 62 m² room across the full width behind the stair, with the dining table beside the open flight as in Rötha. Upstairs the gallery is 12.8 m² with an east window over the garage roof; the master suite stacks as in Rötha, bath and dressing in one band and the bedroom across the garden front, here 27 m² with a sitting area because the plate is 7.71 m wide.</p>
+</div>
+<div class="one"><figure>{svg2["t5_eg"]}<figcaption><b>T5 ground floor.</b> Entrance band 3.70 m deep: hall with a 1.5 m wardrobe and a bench, guest WC, cloaks cupboard, and the 13 m² mudroom-pantry with the door from the garage and a passage into the kitchen. The 4.3 m flight runs east behind that band from a 1.2 m landing at the party wall; the cellar flight lies under it, entered at its east end from a lobby beside the kitchen passage. The living room is 62 m² behind the stair: kitchen in the east with a 4.2 m run on the blind east wall, a 1.8 m run and the fridge column under the stair wall and the 1.2 × 2.4 m island; the dining table stands beside the open flight; the lounge faces the 3.6 m glass wall. The ground-floor bedroom (10.9 m², bed on the party wall, south window) has its en suite on the party wall.</figcaption></figure></div>
+<div class="one"><figure>{svg2["t5_og"]}<figcaption><b>T5 upper floor.</b> Two children's rooms of 13.2 and 14.8 m² at the street with the beds on the partition, desks under the windows and the wardrobes on the party wall and the landing wall. The gallery (12.8 m²) wraps the stair opening and has an east window over the garage roof, a reading chair and a bookcase. Family bath 8.8 m² with tub, shower, double vanity, WC and the washer-dryer; dressing 6.0 m² with a 2.2 m rail and drawers; master bath 8.9 m² with a double vanity, 1.2 × 1.2 shower, WC and the tub under the east window. The master bedroom is 27.2 m² across the garden front: bed on the 3.53 m party wall, dresser and TV opposite, a sofa and desk in the east half under the two south windows.</figcaption></figure></div>
+<div class="one"><figure>{svg2["t5_kg"]}<figcaption><b>T5 basement.</b> The cellar flight under the main flight lands in a 12.8 m² cellar hall; plant room and laundry to the street side, hobby room with a south light well and a 27 m² store with an east light well to the garden side.</figcaption></figure></div>
+<div class="col">
+{rooms("t5_eg")}
+{rooms("t5_og")}
+<p>Against T4, T5 trades the party-wall stair for Rötha's: the gallery gets daylight and the living room becomes one wide room, the mudroom-pantry puts the HWR above ground and the ground-floor bedroom gets the quiet corner. It pays with a smaller master bath and dressing (8.9 and 6.0 m² against 16.1 and 8.4), because the suite band is only 3.18 m deep on this plate, and with a stair that cuts the plan at 4.2 m from the street, so the entrance band is service only. Net rooms are {t5_net:.0f} m² above ground against T4's {t4_net:.0f} m²; the Wohnfläche estimate is about the same, 187 m². If the gallery and the one big living room matter more than the 16 m² bath, T5 is the better house; if the suite is the priority, T4.</p>
+
 <h3>Which one</h3>
-{table(["", "T1 · same plate", "T4 · plot maximum", "T4v · offset pair"], [
- ["Planning risk", "none beyond today's design", "depth to the Abstandsfläche; side Baugrenzen to confirm; WU basement in pressing water", "as T4 plus the Gestaltung rules on offset halves"],
- ["Brief", "3 bedrooms, no ground-floor bedroom, about 143 m² Wohnfläche", "all items, about 187 m² Wohnfläche", "all items, about 174 m² Wohnfläche"],
- ["Master suite", "14.5 + 6.6 + 7.9 m²", "13.7 + 8.4 + 16.1 m² with WC room and daylight", "as T4, 1.0 m shorter rooms on the south"],
- ["Children", "12.2 and 14.5 m²", "13.4 and 15.9 m² plus the ground-floor room", "as T4"],
- ["Living", "49.6 m² + 9.6 m² nook, terrace to the south", "48.7 m² + 18.9 m² lounge, 3.6 m glass front to the south", "as T4, 1.0 m shorter, plus a side window and a private terrace corner"],
- ["Cost direction", "cheapest: fewest m², one stair, slab on grade", "233 m² above ground plus a 117 m² WU basement per house", "217 m² above ground plus a 108 m² WU basement per house"],
- ["Recommendation", "only if the plate must not grow", "build this if 190 m² is the target", "build this if the garden should feel private and the stair should have daylight"],
+{table(["", "T1 · same plate", "T4 · plot maximum", "T4v · offset pair", "T5 · Rötha stair"], [
+ ["Planning risk", "none beyond today's design", "depth to the Abstandsfläche; side Baugrenzen to confirm; WU basement in pressing water", "as T4 plus the Gestaltung rules on offset halves", "as T4"],
+ ["Brief", "3 bedrooms, no ground-floor bedroom, about 143 m² Wohnfläche", "all items, about 187 m² Wohnfläche", "all items, about 174 m² Wohnfläche", "all items, about 187 m² Wohnfläche, HWR above ground"],
+ ["Master suite", "14.5 + 6.6 + 7.9 m²", "13.7 + 8.4 + 16.1 m² with WC room and daylight", "as T4, 1.0 m shorter rooms on the south", "27.2 + 6.0 + 8.9 m², bath and dressing in one band"],
+ ["Children", "12.2 and 14.5 m²", "13.4 and 15.9 m² plus the ground-floor room", "as T4", "13.2 and 14.8 m² plus the ground-floor room"],
+ ["Living", "49.6 m² + 9.6 m² nook, terrace to the south", "48.7 m² + 18.9 m² lounge, 3.6 m glass front to the south", "as T4, 1.0 m shorter, plus a side window and a private terrace corner", "62.1 m² in one room behind the open stair, 3.6 m glass wall"],
+ ["Cost direction", "cheapest: fewest m², one stair, slab on grade", "233 m² above ground plus a 117 m² WU basement per house", "217 m² above ground plus a 108 m² WU basement per house", "as T4"],
+ ["Recommendation", "only if the plate must not grow", "build this if 190 m² is the target", "build this if the garden should feel private and the stair should have daylight", "build this if the daylit gallery and one wide living room matter more than the 16 m² master bath"],
 ])}
 <details><summary>Earlier studies T2 and T3, drawn before the briefing (not buildable here)</summary>
 <p class="small">T2 (10.29 × 12.04 m, master suite on the ground floor) and T3 (12.29 × 12.04 m with basement, drawn for an assumed 370 m² half-plot at GRZ 0.4) were drawn before the plot data arrived. Both are wider than 8.29 m, which the boundary garages do not allow, and T3 exceeds the GRZ by 27 m². Their planning ideas (hotel sequence, acoustic wall, furniture walkways) are carried into T4; the drawings stay here for the record.</p>
