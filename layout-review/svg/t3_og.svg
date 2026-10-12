@@ -1,0 +1,330 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 896.6 890.6" role="img" aria-label="Two storeys + basement T3 · upper floor" class="plan"><style> :root{   --paper:#f4f3ef; --paper2:#fbfaf7; --floor:#fffefb; --ink:#1c2230; --muted:#687080; --rule:#d8d5cc;   --accent:#2b5c8a; --accent-soft:#e0e9f2; --bad:#b23b2f; --ok:#2f7a4f; --warn:#a86a0c;   --ok-soft:#e2f0e7; --warn-soft:#f6ecd7; --bad-soft:#f6e1de;   --wall:#262b36; --winfill:#cfe2f2; --voidfill:#ece8dd; --chim:#8f98a6; --terrace:#ebe6d6;   --bedfill:#ebe5d6; --wetfill:#d8e8f3; --wardfill:#ece6d8; --furnfill:#f2eee4; --furndark:#ded7c6;   --zonefill:rgba(43,92,138,.10); --pathfill:rgba(168,106,12,.12); --zoneline:#2b5c8a; --zonetext:#2b5c8a;   --display:"Bricolage Grotesque","Avenir Next",system-ui,sans-serif;   --body:"Source Sans 3","Source Sans Pro",system-ui,sans-serif;   --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace; } @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){   --paper:#14171d; --paper2:#1a1e26; --floor:#20252e; --ink:#e9e7e0; --muted:#9ca3ae; --rule:#2f343e;   --accent:#8fb8de; --accent-soft:#1f2e3d; --bad:#ef8b80; --ok:#80cf9c; --warn:#e6b55e;   --ok-soft:#1b3326; --warn-soft:#3a2d14; --bad-soft:#3d1f1d;   --wall:#cfd3db; --winfill:#2e4d66; --voidfill:#272b34; --chim:#5e6876; --terrace:#2a2d33;   --bedfill:#3b3629; --wetfill:#233746; --wardfill:#383327; --furnfill:#2b303a; --furndark:#3b414d;   --zonefill:rgba(143,184,222,.14); --pathfill:rgba(230,181,94,.14); --zoneline:#8fb8de; --zonetext:#b7d2ea;   color-scheme:dark }} :root[data-theme="dark"]{   --paper:#14171d; --paper2:#1a1e26; --floor:#20252e; --ink:#e9e7e0; --muted:#9ca3ae; --rule:#2f343e;   --accent:#8fb8de; --accent-soft:#1f2e3d; --bad:#ef8b80; --ok:#80cf9c; --warn:#e6b55e;   --ok-soft:#1b3326; --warn-soft:#3a2d14; --bad-soft:#3d1f1d;   --wall:#cfd3db; --winfill:#2e4d66; --voidfill:#272b34; --chim:#5e6876; --terrace:#2a2d33;   --bedfill:#3b3629; --wetfill:#233746; --wardfill:#383327; --furnfill:#2b303a; --furndark:#3b414d;   --zonefill:rgba(143,184,222,.14); --pathfill:rgba(230,181,94,.14); --zoneline:#8fb8de; --zonetext:#b7d2ea;   color-scheme:dark }  .plan{display:block;width:100%;max-width:100%;height:auto;background:var(--paper2);border:1px solid var(--rule)} .plan .wall{fill:var(--wall)} .plan .wall-new{fill:var(--accent)} .plan .wall-gone{fill:none;stroke:var(--bad);stroke-width:1.4;stroke-dasharray:4 3} .plan .floor{fill:var(--floor)} .plan .outline{fill:none;stroke:var(--muted);stroke-width:1;stroke-dasharray:6 4} .plan .terrace{fill:var(--terrace)} .plan .win{fill:var(--winfill)} .plan .win-new{fill:var(--winfill);stroke:var(--accent);stroke-width:1.2} .plan .winl{stroke:var(--ink);stroke-width:.8} .plan .open{fill:var(--floor)} .plan .arc{fill:none;stroke:var(--ink);stroke-width:.7;stroke-dasharray:3 2} .plan .pocket{fill:var(--floor);fill-opacity:.55;stroke:var(--accent);stroke-width:1;stroke-dasharray:3 2} .plan .leaf{fill:var(--floor);stroke:var(--ink);stroke-width:1.1} .plan .leaf-new{fill:var(--floor);stroke:var(--accent);stroke-width:1.3} .plan .mirror{stroke:var(--accent);stroke-width:2.2} .plan .lamp{fill:none;stroke:var(--ink);stroke-width:.6} .plan .winf{stroke:var(--ink);stroke-width:.5} .plan .glass{stroke:var(--accent);stroke-width:2} .plan .f-bed{fill:var(--bedfill);stroke:var(--ink);stroke-width:.8} .plan .f-head{fill:var(--ink)} .plan .pillow{fill:var(--floor);stroke:var(--ink);stroke-width:.6} .plan .f-wet{fill:var(--wetfill);stroke:var(--ink);stroke-width:.8} .plan .f-wet-in{fill:var(--floor);stroke:var(--ink);stroke-width:.5} .plan .basin{fill:var(--floor);stroke:var(--ink);stroke-width:.7} .plan .bowl{fill:var(--floor);stroke:var(--ink);stroke-width:.8} .plan .drain{fill:var(--ink)} .plan .hob{fill:none;stroke:var(--ink);stroke-width:.7} .plan .f-ward{fill:var(--wardfill);stroke:var(--ink);stroke-width:.8} .plan .rail{stroke:var(--ink);stroke-width:1} .plan .f-furn{fill:var(--furnfill);stroke:var(--ink);stroke-width:.8} .plan .f-furn-dark{fill:var(--furndark)} .plan .f-chair{fill:var(--furnfill);stroke:var(--ink);stroke-width:.6} .plan .f-ring{fill:none;stroke:var(--ink);stroke-width:.8} .plan .f-rad{fill:var(--accent)} .plan .stairs{fill:var(--floor);stroke:var(--ink);stroke-width:.8} .plan .void{fill:var(--voidfill);stroke:var(--ink);stroke-width:.5;stroke-dasharray:2 2} .plan .chim{fill:var(--chim)} .plan .thin{stroke:var(--ink);stroke-width:.6} .plan .hair{stroke:var(--ink);stroke-width:.35;opacity:.7} .plan .arrow{stroke:var(--ink);stroke-width:1;marker-end:url(#ah)} .plan .zone{fill:var(--zonefill);stroke:var(--zoneline);stroke-width:.7;stroke-dasharray:3 2} .plan .zone-path{fill:var(--pathfill);stroke:var(--zoneline);stroke-width:.7;stroke-dasharray:3 2} .plan .ztext{font-family:var(--mono);font-size:8.5px;fill:var(--zonetext);text-anchor:middle} .plan .walk{fill:none;stroke:var(--bad);stroke-width:1.4;stroke-dasharray:5 3;opacity:.85} .plan .callout{fill:var(--accent)} .plan .callout-t{font-family:var(--mono);font-size:11px;font-weight:600;fill:var(--paper2);text-anchor:middle} .plan .rname{font-family:var(--display);font-size:12.5px;font-weight:600;fill:var(--ink);text-anchor:middle} .plan .rarea{font-family:var(--mono);font-size:11px;fill:var(--accent);text-anchor:middle} .plan .rsub{font-family:var(--mono);font-size:8.5px;fill:var(--muted);text-anchor:middle} .plan .flabel{font-family:var(--body);font-size:8.5px;fill:var(--ink);text-anchor:middle} .plan .tiny{font-family:var(--mono);font-size:7.5px;fill:var(--muted);text-anchor:middle} .plan .note{font-family:var(--mono);font-size:9px;fill:var(--muted)} .plan .dim{stroke:var(--muted);stroke-width:.7} .plan .dimt{font-family:var(--mono);font-size:9.5px;fill:var(--muted);text-anchor:middle} .plan .northp{fill:var(--ink)} .plan .sb-a{fill:var(--ink)} .plan .sb-b{fill:var(--paper2);stroke:var(--ink);stroke-width:.6}  svg{background:var(--paper2)}</style><defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs><g transform="translate(70.0 56.0)">
+<rect x="0" y="0" width="786.6" height="770.6" class="wall"/>
+<rect x="14.1" y="295.0" width="749.4" height="115.2" class="floor" shape-rendering="crispEdges"/>
+<rect x="14.1" y="23.0" width="64.0" height="64.0" class="floor" shape-rendering="crispEdges"/>
+<rect x="85.8" y="23.0" width="247.0" height="264.3" class="floor" shape-rendering="crispEdges"/>
+<rect x="340.5" y="23.0" width="241.9" height="264.3" class="floor" shape-rendering="crispEdges"/>
+<rect x="590.1" y="23.0" width="173.4" height="264.3" class="floor" shape-rendering="crispEdges"/>
+<rect x="14.1" y="417.9" width="224.0" height="329.6" class="floor" shape-rendering="crispEdges"/>
+<rect x="245.8" y="417.9" width="93.4" height="170.9" class="floor" shape-rendering="crispEdges"/>
+<rect x="346.9" y="417.9" width="198.4" height="329.6" class="floor" shape-rendering="crispEdges"/>
+<rect x="553.0" y="417.9" width="210.6" height="329.6" class="floor" shape-rendering="crispEdges"/>
+
+<rect x="14.1" y="87.0" width="64.0" height="259.2" class="stairs"/>
+<line x1="14.1" y1="104.3" x2="78.1" y2="104.3" class="hair"/>
+<line x1="14.1" y1="121.6" x2="78.1" y2="121.6" class="hair"/>
+<line x1="14.1" y1="138.9" x2="78.1" y2="138.9" class="hair"/>
+<line x1="14.1" y1="156.2" x2="78.1" y2="156.2" class="hair"/>
+<line x1="14.1" y1="173.4" x2="78.1" y2="173.4" class="hair"/>
+<line x1="14.1" y1="190.7" x2="78.1" y2="190.7" class="hair"/>
+<line x1="14.1" y1="208.0" x2="78.1" y2="208.0" class="hair"/>
+<line x1="14.1" y1="225.3" x2="78.1" y2="225.3" class="hair"/>
+<line x1="14.1" y1="242.6" x2="78.1" y2="242.6" class="hair"/>
+<line x1="14.1" y1="259.8" x2="78.1" y2="259.8" class="hair"/>
+<line x1="14.1" y1="277.1" x2="78.1" y2="277.1" class="hair"/>
+<line x1="14.1" y1="294.4" x2="78.1" y2="294.4" class="hair"/>
+<line x1="14.1" y1="311.7" x2="78.1" y2="311.7" class="hair"/>
+<line x1="14.1" y1="329.0" x2="78.1" y2="329.0" class="hair"/>
+<line x1="46.1" y1="94.7" x2="46.1" y2="338.6" class="arrow"/>
+<rect x="204.8" y="108.8" width="128.0" height="89.6" class="f-bed"/>
+<rect x="328.3" y="108.8" width="4.5" height="89.6" class="f-head"/>
+<rect x="295.7" y="115.2" width="28.2" height="35.8" class="pillow" rx="3"/>
+<rect x="295.7" y="156.2" width="28.2" height="35.8" class="pillow" rx="3"/>
+<line x1="275.2" y1="111.4" x2="275.2" y2="195.8" class="thin"/>
+<rect x="305.9" y="76.8" width="26.9" height="26.9" class="f-furn"/>
+<circle cx="319.4" cy="90.2" r="5.8" class="lamp"/>
+<rect x="102.4" y="23.0" width="89.6" height="38.4" class="f-furn"/>
+<rect x="134.4" y="64.0" width="25.6" height="25.6" class="f-chair" rx="4"/>
+<rect x="172.8" y="249.0" width="160.0" height="38.4" class="f-ward"/>
+<line x1="176.0" y1="268.2" x2="329.6" y2="268.2" class="rail"/>
+<line x1="188.8" y1="261.8" x2="188.8" y2="274.6" class="hair"/>
+<line x1="204.8" y1="261.8" x2="204.8" y2="274.6" class="hair"/>
+<line x1="220.8" y1="261.8" x2="220.8" y2="274.6" class="hair"/>
+<line x1="236.8" y1="261.8" x2="236.8" y2="274.6" class="hair"/>
+<line x1="252.8" y1="261.8" x2="252.8" y2="274.6" class="hair"/>
+<line x1="268.8" y1="261.8" x2="268.8" y2="274.6" class="hair"/>
+<line x1="284.8" y1="261.8" x2="284.8" y2="274.6" class="hair"/>
+<line x1="300.8" y1="261.8" x2="300.8" y2="274.6" class="hair"/>
+<line x1="316.8" y1="261.8" x2="316.8" y2="274.6" class="hair"/>
+<rect x="454.4" y="108.8" width="128.0" height="89.6" class="f-bed"/>
+<rect x="577.9" y="108.8" width="4.5" height="89.6" class="f-head"/>
+<rect x="545.3" y="115.2" width="28.2" height="35.8" class="pillow" rx="3"/>
+<rect x="545.3" y="156.2" width="28.2" height="35.8" class="pillow" rx="3"/>
+<line x1="524.8" y1="111.4" x2="524.8" y2="195.8" class="thin"/>
+<rect x="555.5" y="76.8" width="26.9" height="26.9" class="f-furn"/>
+<circle cx="569.0" cy="90.2" r="5.8" class="lamp"/>
+<rect x="377.6" y="23.0" width="89.6" height="38.4" class="f-furn"/>
+<rect x="384.0" y="64.0" width="25.6" height="25.6" class="f-chair" rx="4"/>
+<rect x="422.4" y="249.0" width="160.0" height="38.4" class="f-ward"/>
+<line x1="425.6" y1="268.2" x2="579.2" y2="268.2" class="rail"/>
+<line x1="438.4" y1="261.8" x2="438.4" y2="274.6" class="hair"/>
+<line x1="454.4" y1="261.8" x2="454.4" y2="274.6" class="hair"/>
+<line x1="470.4" y1="261.8" x2="470.4" y2="274.6" class="hair"/>
+<line x1="486.4" y1="261.8" x2="486.4" y2="274.6" class="hair"/>
+<line x1="502.4" y1="261.8" x2="502.4" y2="274.6" class="hair"/>
+<line x1="518.4" y1="261.8" x2="518.4" y2="274.6" class="hair"/>
+<line x1="534.4" y1="261.8" x2="534.4" y2="274.6" class="hair"/>
+<line x1="550.4" y1="261.8" x2="550.4" y2="274.6" class="hair"/>
+<line x1="566.4" y1="261.8" x2="566.4" y2="274.6" class="hair"/>
+<rect x="601.6" y="23.0" width="115.2" height="51.2" class="f-wet" rx="4"/>
+<rect x="606.7" y="28.2" width="105.0" height="41.0" class="f-wet-in" rx="9"/>
+<circle cx="701.4" cy="48.6" r="2.6" class="drain"/>
+<line x1="709.1" y1="43.5" x2="709.1" y2="53.8" class="thin"/>
+<rect x="590.1" y="89.6" width="35.2" height="102.4" class="f-furn"/>
+<rect x="596.8" y="102.5" width="21.8" height="29.4" class="basin" rx="7"/>
+<circle cx="595.8" cy="117.2" r="1.9" class="drain"/>
+<rect x="596.8" y="149.6" width="21.8" height="29.4" class="basin" rx="7"/>
+<circle cx="595.8" cy="164.4" r="1.9" class="drain"/>
+<line x1="591.4" y1="92.8" x2="591.4" y2="188.8" class="mirror"/>
+<rect x="686.7" y="210.6" width="76.8" height="76.8" class="f-wet"/>
+<circle cx="700.8" cy="224.6" r="3.2" class="drain"/>
+<line x1="686.7" y1="210.6" x2="763.5" y2="210.6" class="glass"/>
+<line x1="686.7" y1="210.6" x2="686.7" y2="287.4" class="glass"/>
+<rect x="730.2" y="89.6" width="24.3" height="11.5" class="f-wet"/>
+<ellipse cx="742.4" cy="116.5" rx="10.9" ry="14.7" class="bowl"/>
+<rect x="758.4" y="147.2" width="5.1" height="38.4" class="f-rad"/>
+<rect x="14.1" y="537.6" width="128.0" height="115.2" class="f-bed"/>
+<rect x="14.1" y="537.6" width="4.5" height="115.2" class="f-head"/>
+<rect x="23.0" y="544.0" width="28.2" height="48.6" class="pillow" rx="3"/>
+<rect x="23.0" y="597.8" width="28.2" height="48.6" class="pillow" rx="3"/>
+<line x1="71.7" y1="540.2" x2="71.7" y2="650.2" class="thin"/>
+<rect x="14.1" y="502.4" width="32.0" height="32.0" class="f-furn"/>
+<circle cx="30.1" cy="518.4" r="5.8" class="lamp"/>
+<rect x="14.1" y="656.0" width="32.0" height="32.0" class="f-furn"/>
+<circle cx="30.1" cy="672.0" r="5.8" class="lamp"/>
+<rect x="199.7" y="417.9" width="38.4" height="158.1" class="f-ward"/>
+<line x1="218.9" y1="421.1" x2="218.9" y2="572.8" class="rail"/>
+<line x1="212.5" y1="435.5" x2="225.3" y2="435.5" class="hair"/>
+<line x1="212.5" y1="453.0" x2="225.3" y2="453.0" class="hair"/>
+<line x1="212.5" y1="470.6" x2="225.3" y2="470.6" class="hair"/>
+<line x1="212.5" y1="488.2" x2="225.3" y2="488.2" class="hair"/>
+<line x1="212.5" y1="505.7" x2="225.3" y2="505.7" class="hair"/>
+<line x1="212.5" y1="523.3" x2="225.3" y2="523.3" class="hair"/>
+<line x1="212.5" y1="540.9" x2="225.3" y2="540.9" class="hair"/>
+<line x1="212.5" y1="558.4" x2="225.3" y2="558.4" class="hair"/>
+<rect x="147.2" y="709.1" width="89.6" height="38.4" class="f-furn"/>
+<rect x="179.2" y="678.4" width="25.6" height="25.6" class="f-chair" rx="4"/>
+<rect x="281.6" y="531.2" width="57.6" height="57.6" class="f-wet"/>
+<circle cx="295.7" cy="545.3" r="3.2" class="drain"/>
+<line x1="281.6" y1="531.2" x2="339.2" y2="531.2" class="glass"/>
+<line x1="281.6" y1="531.2" x2="281.6" y2="588.8" class="glass"/>
+<rect x="301.4" y="417.9" width="24.3" height="11.5" class="f-wet"/>
+<ellipse cx="313.6" cy="444.8" rx="10.9" ry="14.7" class="bowl"/>
+<rect x="245.8" y="473.6" width="25.6" height="38.4" class="f-furn"/>
+<rect x="247.7" y="478.1" width="21.8" height="29.4" class="basin" rx="7"/>
+<circle cx="251.5" cy="492.8" r="1.9" class="drain"/>
+<line x1="247.0" y1="476.8" x2="247.0" y2="508.8" class="mirror"/>
+<rect x="384.0" y="678.4" width="128.0" height="64.0" class="f-furn" rx="4"/>
+<rect x="384.0" y="728.3" width="128.0" height="14.1" class="f-furn-dark" rx="4"/>
+<rect x="384.0" y="678.4" width="9.0" height="64.0" class="f-furn-dark" rx="3"/>
+<rect x="503.0" y="678.4" width="9.0" height="64.0" class="f-furn-dark" rx="3"/>
+<rect x="346.9" y="550.4" width="25.6" height="89.6" class="f-furn"/>
+<rect x="505.6" y="428.8" width="38.4" height="192.0" class="f-furn"/>
+<rect x="409.6" y="563.2" width="51.2" height="51.2" class="f-furn"/>
+<rect x="661.1" y="524.8" width="102.4" height="38.4" class="f-furn"/>
+<rect x="697.6" y="569.6" width="25.6" height="25.6" class="f-chair" rx="4"/>
+<rect x="553.0" y="480.0" width="38.4" height="166.4" class="f-ward"/>
+<line x1="572.2" y1="483.2" x2="572.2" y2="643.2" class="rail"/>
+<line x1="565.8" y1="496.6" x2="578.6" y2="496.6" class="hair"/>
+<line x1="565.8" y1="513.3" x2="578.6" y2="513.3" class="hair"/>
+<line x1="565.8" y1="529.9" x2="578.6" y2="529.9" class="hair"/>
+<line x1="565.8" y1="546.6" x2="578.6" y2="546.6" class="hair"/>
+<line x1="565.8" y1="563.2" x2="578.6" y2="563.2" class="hair"/>
+<line x1="565.8" y1="579.8" x2="578.6" y2="579.8" class="hair"/>
+<line x1="565.8" y1="596.5" x2="578.6" y2="596.5" class="hair"/>
+<line x1="565.8" y1="613.1" x2="578.6" y2="613.1" class="hair"/>
+<line x1="565.8" y1="629.8" x2="578.6" y2="629.8" class="hair"/>
+<rect x="569.6" y="678.4" width="128.0" height="64.0" class="f-furn" rx="4"/>
+<rect x="569.6" y="728.3" width="128.0" height="14.1" class="f-furn-dark" rx="4"/>
+<rect x="569.6" y="678.4" width="9.0" height="64.0" class="f-furn-dark" rx="3"/>
+<rect x="688.6" y="678.4" width="9.0" height="64.0" class="f-furn-dark" rx="3"/>
+<rect x="78.1" y="23.0" width="7.7" height="264.3" class="wall" shape-rendering="crispEdges"/>
+<rect x="78.1" y="287.4" width="685.4" height="7.7" class="wall" shape-rendering="crispEdges"/>
+<rect x="332.8" y="23.0" width="7.7" height="264.3" class="wall" shape-rendering="crispEdges"/>
+<rect x="582.4" y="23.0" width="7.7" height="264.3" class="wall" shape-rendering="crispEdges"/>
+<rect x="14.1" y="410.2" width="749.4" height="7.7" class="wall" shape-rendering="crispEdges"/>
+<rect x="238.1" y="417.9" width="7.7" height="329.6" class="wall" shape-rendering="crispEdges"/>
+<rect x="339.2" y="417.9" width="7.7" height="329.6" class="wall" shape-rendering="crispEdges"/>
+<rect x="545.3" y="417.9" width="7.7" height="329.6" class="wall" shape-rendering="crispEdges"/>
+<rect x="245.8" y="588.8" width="93.4" height="7.7" class="wall" shape-rendering="crispEdges"/>
+<rect x="102.4" y="0.0" width="89.6" height="23.0" class="win" shape-rendering="crispEdges"/>
+<line x1="102.4" y1="6.9" x2="192.0" y2="6.9" class="winf"/>
+<line x1="102.4" y1="11.5" x2="192.0" y2="11.5" class="winl"/>
+<line x1="102.4" y1="16.1" x2="192.0" y2="16.1" class="winf"/>
+<rect x="377.6" y="0.0" width="89.6" height="23.0" class="win" shape-rendering="crispEdges"/>
+<line x1="377.6" y1="6.9" x2="467.2" y2="6.9" class="winf"/>
+<line x1="377.6" y1="11.5" x2="467.2" y2="11.5" class="winl"/>
+<line x1="377.6" y1="16.1" x2="467.2" y2="16.1" class="winf"/>
+<rect x="627.2" y="0.0" width="89.6" height="23.0" class="win" shape-rendering="crispEdges"/>
+<line x1="627.2" y1="6.9" x2="716.8" y2="6.9" class="winf"/>
+<line x1="627.2" y1="11.5" x2="716.8" y2="11.5" class="winl"/>
+<line x1="627.2" y1="16.1" x2="716.8" y2="16.1" class="winf"/>
+<rect x="763.5" y="64.0" width="23.0" height="128.0" class="win" shape-rendering="crispEdges"/>
+<line x1="770.4" y1="64.0" x2="770.4" y2="192.0" class="winf"/>
+<line x1="775.0" y1="64.0" x2="775.0" y2="192.0" class="winl"/>
+<line x1="779.6" y1="64.0" x2="779.6" y2="192.0" class="winf"/>
+<rect x="763.5" y="512.0" width="23.0" height="128.0" class="win" shape-rendering="crispEdges"/>
+<line x1="770.4" y1="512.0" x2="770.4" y2="640.0" class="winf"/>
+<line x1="775.0" y1="512.0" x2="775.0" y2="640.0" class="winl"/>
+<line x1="779.6" y1="512.0" x2="779.6" y2="640.0" class="winf"/>
+<rect x="64.0" y="747.5" width="121.6" height="23.0" class="win" shape-rendering="crispEdges"/>
+<line x1="64.0" y1="754.4" x2="185.6" y2="754.4" class="winf"/>
+<line x1="64.0" y1="759.0" x2="185.6" y2="759.0" class="winl"/>
+<line x1="64.0" y1="763.6" x2="185.6" y2="763.6" class="winf"/>
+<rect x="384.0" y="747.5" width="128.0" height="23.0" class="win" shape-rendering="crispEdges"/>
+<line x1="384.0" y1="754.4" x2="512.0" y2="754.4" class="winf"/>
+<line x1="384.0" y1="759.0" x2="512.0" y2="759.0" class="winl"/>
+<line x1="384.0" y1="763.6" x2="512.0" y2="763.6" class="winf"/>
+<rect x="608.0" y="747.5" width="128.0" height="23.0" class="win" shape-rendering="crispEdges"/>
+<line x1="608.0" y1="754.4" x2="736.0" y2="754.4" class="winf"/>
+<line x1="608.0" y1="759.0" x2="736.0" y2="759.0" class="winl"/>
+<line x1="608.0" y1="763.6" x2="736.0" y2="763.6" class="winf"/>
+<rect x="78.1" y="29.4" width="7.7" height="51.2" class="open" shape-rendering="crispEdges"/>
+<rect x="102.4" y="287.4" width="57.6" height="7.7" class="open" shape-rendering="crispEdges"/>
+<rect x="352.0" y="287.4" width="57.6" height="7.7" class="open" shape-rendering="crispEdges"/>
+<rect x="601.6" y="287.4" width="57.6" height="7.7" class="open" shape-rendering="crispEdges"/>
+<rect x="96.0" y="410.2" width="57.6" height="7.7" class="open" shape-rendering="crispEdges"/>
+<rect x="268.8" y="410.2" width="57.6" height="7.7" class="open" shape-rendering="crispEdges"/>
+<rect x="435.2" y="410.2" width="57.6" height="7.7" class="open" shape-rendering="crispEdges"/>
+<rect x="576.0" y="410.2" width="57.6" height="7.7" class="open" shape-rendering="crispEdges"/>
+<rect x="102.4" y="233.6" width="2.9" height="57.6" class="leaf"/>
+<path d="M 160.0 291.2 A 57.6 57.6 0 0 0 104.0 233.6" class="arc"/>
+<rect x="406.7" y="233.6" width="2.9" height="57.6" class="leaf"/>
+<path d="M 352.0 291.2 A 57.6 57.6 0 0 1 408.0 233.6" class="arc"/>
+<rect x="601.6" y="233.6" width="2.9" height="57.6" class="leaf"/>
+<path d="M 659.2 291.2 A 57.6 57.6 0 0 0 603.2 233.6" class="arc"/>
+<rect x="96.0" y="414.1" width="2.9" height="57.6" class="leaf"/>
+<path d="M 153.6 414.1 A 57.6 57.6 0 0 1 97.6 471.7" class="arc"/>
+<rect x="323.5" y="356.5" width="2.9" height="57.6" class="leaf"/>
+<path d="M 268.8 414.1 A 57.6 57.6 0 0 1 324.8 356.5" class="arc"/>
+<rect x="489.9" y="414.1" width="2.9" height="57.6" class="leaf"/>
+<path d="M 435.2 414.1 A 57.6 57.6 0 0 0 491.2 471.7" class="arc"/>
+<rect x="576.0" y="414.1" width="2.9" height="57.6" class="leaf"/>
+<path d="M 633.6 414.1 A 57.6 57.6 0 0 1 577.6 471.7" class="arc"/>
+<text x="46.1" y="107.5" class="tiny" text-anchor="middle">up</text>
+<text transform="translate(46.1 219.8) rotate(-90)" class="tiny" text-anchor="middle">main stair</text>
+<text x="384.0" y="347.0" class="rname" text-anchor="middle">Landing</text>
+<text x="384.0" y="362.0" class="rarea" text-anchor="middle">21.1 m²</text>
+<text x="384.0" y="375.0" class="rsub" text-anchor="middle">incl. stair head</text>
+<text x="46.1" y="50.0" class="rname" text-anchor="middle">Linen</text>
+<text x="46.1" y="65.0" class="rarea" text-anchor="middle">1.0 m²</text>
+<text x="209.3" y="222.2" class="rname" text-anchor="middle">Bedroom NW</text>
+<text x="209.3" y="237.2" class="rarea" text-anchor="middle">15.9 m²</text>
+<text x="209.3" y="250.2" class="rsub" text-anchor="middle">3.86 × 4.13</text>
+<text x="461.4" y="222.2" class="rname" text-anchor="middle">Bedroom N</text>
+<text x="461.4" y="237.2" class="rarea" text-anchor="middle">15.6 m²</text>
+<text x="461.4" y="250.2" class="rsub" text-anchor="middle">3.78 × 4.13</text>
+<text x="676.5" y="155.0" class="rname" text-anchor="middle">Family bath</text>
+<text x="676.5" y="170.0" class="rarea" text-anchor="middle">11.2 m²</text>
+<text x="140.8" y="487.8" class="rname" text-anchor="middle">Bedroom 3 / guest</text>
+<text x="140.8" y="502.8" class="rarea" text-anchor="middle">18.0 m²</text>
+<text x="140.8" y="515.8" class="rsub" text-anchor="middle">3.50 × 5.15</text>
+<text x="307.2" y="491.0" class="rname" text-anchor="middle">Shower room</text>
+<text x="307.2" y="506.0" class="rarea" text-anchor="middle">3.9 m²</text>
+<text x="446.1" y="507.0" class="rname" text-anchor="middle">Family room / TV</text>
+<text x="446.1" y="522.0" class="rarea" text-anchor="middle">16.0 m²</text>
+<text x="446.1" y="535.0" class="rsub" text-anchor="middle">3.10 × 5.15</text>
+<text x="659.2" y="507.0" class="rname" text-anchor="middle">Study</text>
+<text x="659.2" y="522.0" class="rarea" text-anchor="middle">16.9 m²</text>
+<text x="659.2" y="535.0" class="rsub" text-anchor="middle">3.29 × 5.15</text>
+<text x="249.6" y="156.6" class="flabel" text-anchor="middle">Bed 1.4 × 2.0</text>
+<text x="147.2" y="45.2" class="flabel" text-anchor="middle">Desk</text>
+<text x="252.8" y="281.0" class="flabel" text-anchor="middle">Wardrobe 2.5</text>
+<text x="499.2" y="156.6" class="flabel" text-anchor="middle">Bed 1.4 × 2.0</text>
+<text x="422.4" y="45.2" class="flabel" text-anchor="middle">Desk</text>
+<text x="502.4" y="281.0" class="flabel" text-anchor="middle">Wardrobe 2.5</text>
+<text x="659.2" y="51.6" class="flabel" text-anchor="middle">Tub 1.80 × 0.80</text>
+<text x="725.1" y="252.0" class="flabel" text-anchor="middle">Shower</text>
+<text x="742.4" y="113.7" class="flabel" text-anchor="middle">WC</text>
+<text x="97.3" y="598.2" class="flabel" text-anchor="middle">Bed 1.8 × 2.0</text>
+<text transform="translate(231.7 497.0) rotate(-90)" class="flabel" text-anchor="middle">Wardrobe 2.5</text>
+<text x="192.0" y="731.3" class="flabel" text-anchor="middle">Desk</text>
+<text x="310.4" y="563.0" class="flabel" text-anchor="middle">Shower</text>
+<text x="313.6" y="442.0" class="flabel" text-anchor="middle">WC</text>
+<text x="448.0" y="713.4" class="flabel" text-anchor="middle">Sofa 2.0 × 1.0</text>
+<text transform="translate(362.9 595.2) rotate(-90)" class="flabel" text-anchor="middle">TV</text>
+<text transform="translate(528.0 524.8) rotate(-90)" class="flabel" text-anchor="middle">Shelves</text>
+<text x="435.2" y="591.8" class="flabel" text-anchor="middle">Table</text>
+<text x="712.3" y="547.0" class="flabel" text-anchor="middle">Desk 1.6</text>
+<text transform="translate(585.0 563.2) rotate(-90)" class="flabel" text-anchor="middle">Shelves 2.6</text>
+<text x="633.6" y="713.4" class="flabel" text-anchor="middle">Day bed 2.0 × 1.0</text>
+<g transform="translate(815.4 -22.4)"><polygon points="0,-15 5,6 0,2 -5,6" class="northp"/><text y="-19" class="dimt" text-anchor="middle">N</text></g>
+<rect x="0.0" y="828.2" width="32.0" height="5.8" class="sb-a"/>
+<rect x="32.0" y="828.2" width="32.0" height="5.8" class="sb-b"/>
+<rect x="64.0" y="828.2" width="32.0" height="5.8" class="sb-a"/>
+<rect x="96.0" y="828.2" width="32.0" height="5.8" class="sb-b"/>
+<text x="0.0" y="823.7" class="dimt" text-anchor="middle">0</text>
+<text x="64.0" y="823.7" class="dimt" text-anchor="middle">1 m</text>
+<text x="128.0" y="823.7" class="dimt" text-anchor="middle">2 m</text>
+<line x1="0.0" y1="-54.4" x2="786.6" y2="-54.4" class="dim"/>
+<line x1="0.0" y1="-59.5" x2="0.0" y2="-49.3" class="dim"/>
+<line x1="786.6" y1="-59.5" x2="786.6" y2="-49.3" class="dim"/>
+<text x="393.3" y="-58.2" class="dimt" text-anchor="middle">12.29 outside</text>
+<line x1="-25.6" y1="23.0" x2="-25.6" y2="287.4" class="dim"/>
+<line x1="-30.7" y1="23.0" x2="-20.5" y2="23.0" class="dim"/>
+<line x1="-30.7" y1="287.4" x2="-20.5" y2="287.4" class="dim"/>
+<text transform="translate(-30.1 155.2) rotate(-90)" class="dimt" text-anchor="middle">4.13</text>
+<line x1="-25.6" y1="287.4" x2="-25.6" y2="295.0" class="dim"/>
+<line x1="-30.7" y1="287.4" x2="-20.5" y2="287.4" class="dim"/>
+<line x1="-30.7" y1="295.0" x2="-20.5" y2="295.0" class="dim"/>
+<line x1="-25.6" y1="295.0" x2="-25.6" y2="410.2" class="dim"/>
+<line x1="-30.7" y1="295.0" x2="-20.5" y2="295.0" class="dim"/>
+<line x1="-30.7" y1="410.2" x2="-20.5" y2="410.2" class="dim"/>
+<text transform="translate(-30.1 352.6) rotate(-90)" class="dimt" text-anchor="middle">1.80</text>
+<line x1="-25.6" y1="410.2" x2="-25.6" y2="417.9" class="dim"/>
+<line x1="-30.7" y1="410.2" x2="-20.5" y2="410.2" class="dim"/>
+<line x1="-30.7" y1="417.9" x2="-20.5" y2="417.9" class="dim"/>
+<line x1="-25.6" y1="417.9" x2="-25.6" y2="747.5" class="dim"/>
+<line x1="-30.7" y1="417.9" x2="-20.5" y2="417.9" class="dim"/>
+<line x1="-30.7" y1="747.5" x2="-20.5" y2="747.5" class="dim"/>
+<text transform="translate(-30.1 582.7) rotate(-90)" class="dimt" text-anchor="middle">5.15</text>
+<line x1="14.1" y1="-25.6" x2="78.1" y2="-25.6" class="dim"/>
+<line x1="14.1" y1="-30.7" x2="14.1" y2="-20.5" class="dim"/>
+<line x1="78.1" y1="-30.7" x2="78.1" y2="-20.5" class="dim"/>
+<text x="46.1" y="-29.4" class="dimt" text-anchor="middle">1.00</text>
+<line x1="78.1" y1="-25.6" x2="85.8" y2="-25.6" class="dim"/>
+<line x1="78.1" y1="-30.7" x2="78.1" y2="-20.5" class="dim"/>
+<line x1="85.8" y1="-30.7" x2="85.8" y2="-20.5" class="dim"/>
+<line x1="85.8" y1="-25.6" x2="332.8" y2="-25.6" class="dim"/>
+<line x1="85.8" y1="-30.7" x2="85.8" y2="-20.5" class="dim"/>
+<line x1="332.8" y1="-30.7" x2="332.8" y2="-20.5" class="dim"/>
+<text x="209.3" y="-29.4" class="dimt" text-anchor="middle">3.86</text>
+<line x1="332.8" y1="-25.6" x2="340.5" y2="-25.6" class="dim"/>
+<line x1="332.8" y1="-30.7" x2="332.8" y2="-20.5" class="dim"/>
+<line x1="340.5" y1="-30.7" x2="340.5" y2="-20.5" class="dim"/>
+<line x1="340.5" y1="-25.6" x2="582.4" y2="-25.6" class="dim"/>
+<line x1="340.5" y1="-30.7" x2="340.5" y2="-20.5" class="dim"/>
+<line x1="582.4" y1="-30.7" x2="582.4" y2="-20.5" class="dim"/>
+<text x="461.4" y="-29.4" class="dimt" text-anchor="middle">3.78</text>
+<line x1="582.4" y1="-25.6" x2="590.1" y2="-25.6" class="dim"/>
+<line x1="582.4" y1="-30.7" x2="582.4" y2="-20.5" class="dim"/>
+<line x1="590.1" y1="-30.7" x2="590.1" y2="-20.5" class="dim"/>
+<line x1="590.1" y1="-25.6" x2="763.5" y2="-25.6" class="dim"/>
+<line x1="590.1" y1="-30.7" x2="590.1" y2="-20.5" class="dim"/>
+<line x1="763.5" y1="-30.7" x2="763.5" y2="-20.5" class="dim"/>
+<text x="676.8" y="-29.4" class="dimt" text-anchor="middle">2.71</text>
+<line x1="14.1" y1="805.8" x2="238.1" y2="805.8" class="dim"/>
+<line x1="14.1" y1="800.6" x2="14.1" y2="810.9" class="dim"/>
+<line x1="238.1" y1="800.6" x2="238.1" y2="810.9" class="dim"/>
+<text x="126.1" y="801.9" class="dimt" text-anchor="middle">3.50</text>
+<line x1="238.1" y1="805.8" x2="245.8" y2="805.8" class="dim"/>
+<line x1="238.1" y1="800.6" x2="238.1" y2="810.9" class="dim"/>
+<line x1="245.8" y1="800.6" x2="245.8" y2="810.9" class="dim"/>
+<line x1="245.8" y1="805.8" x2="339.2" y2="805.8" class="dim"/>
+<line x1="245.8" y1="800.6" x2="245.8" y2="810.9" class="dim"/>
+<line x1="339.2" y1="800.6" x2="339.2" y2="810.9" class="dim"/>
+<text x="292.5" y="801.9" class="dimt" text-anchor="middle">1.46</text>
+<line x1="339.2" y1="805.8" x2="346.9" y2="805.8" class="dim"/>
+<line x1="339.2" y1="800.6" x2="339.2" y2="810.9" class="dim"/>
+<line x1="346.9" y1="800.6" x2="346.9" y2="810.9" class="dim"/>
+<line x1="346.9" y1="805.8" x2="545.3" y2="805.8" class="dim"/>
+<line x1="346.9" y1="800.6" x2="346.9" y2="810.9" class="dim"/>
+<line x1="545.3" y1="800.6" x2="545.3" y2="810.9" class="dim"/>
+<text x="446.1" y="801.9" class="dimt" text-anchor="middle">3.10</text>
+<line x1="545.3" y1="805.8" x2="553.0" y2="805.8" class="dim"/>
+<line x1="545.3" y1="800.6" x2="545.3" y2="810.9" class="dim"/>
+<line x1="553.0" y1="800.6" x2="553.0" y2="810.9" class="dim"/>
+<line x1="553.0" y1="805.8" x2="763.5" y2="805.8" class="dim"/>
+<line x1="553.0" y1="800.6" x2="553.0" y2="810.9" class="dim"/>
+<line x1="763.5" y1="800.6" x2="763.5" y2="810.9" class="dim"/>
+<text x="658.2" y="801.9" class="dimt" text-anchor="middle">3.29</text></g></svg>

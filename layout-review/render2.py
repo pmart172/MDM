@@ -1,4 +1,5 @@
-import floors2 as floors, plancss, subprocess, sys, os
+import importlib, plancss, subprocess, sys, os
+floors = importlib.import_module(os.environ.get("FLOORS", "floors2"))
 css = "<style>" + plancss.TOKENS + plancss.PLAN_CSS + "body{background:var(--paper);padding:10px;margin:0} .plan{width:900px}</style>"
 defs = '<svg width="0" height="0" style="position:absolute"><defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs></svg>'
 keys = sys.argv[1:] or list(floors.ALL)

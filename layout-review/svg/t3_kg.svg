@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 896.6 890.6" role="img" aria-label="Two storeys + basement T3 · basement" class="plan"><style> :root{   --paper:#f4f3ef; --paper2:#fbfaf7; --floor:#fffefb; --ink:#1c2230; --muted:#687080; --rule:#d8d5cc;   --accent:#2b5c8a; --accent-soft:#e0e9f2; --bad:#b23b2f; --ok:#2f7a4f; --warn:#a86a0c;   --ok-soft:#e2f0e7; --warn-soft:#f6ecd7; --bad-soft:#f6e1de;   --wall:#262b36; --winfill:#cfe2f2; --voidfill:#ece8dd; --chim:#8f98a6; --terrace:#ebe6d6;   --bedfill:#ebe5d6; --wetfill:#d8e8f3; --wardfill:#ece6d8; --furnfill:#f2eee4; --furndark:#ded7c6;   --zonefill:rgba(43,92,138,.10); --pathfill:rgba(168,106,12,.12); --zoneline:#2b5c8a; --zonetext:#2b5c8a;   --display:"Bricolage Grotesque","Avenir Next",system-ui,sans-serif;   --body:"Source Sans 3","Source Sans Pro",system-ui,sans-serif;   --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace; } @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){   --paper:#14171d; --paper2:#1a1e26; --floor:#20252e; --ink:#e9e7e0; --muted:#9ca3ae; --rule:#2f343e;   --accent:#8fb8de; --accent-soft:#1f2e3d; --bad:#ef8b80; --ok:#80cf9c; --warn:#e6b55e;   --ok-soft:#1b3326; --warn-soft:#3a2d14; --bad-soft:#3d1f1d;   --wall:#cfd3db; --winfill:#2e4d66; --voidfill:#272b34; --chim:#5e6876; --terrace:#2a2d33;   --bedfill:#3b3629; --wetfill:#233746; --wardfill:#383327; --furnfill:#2b303a; --furndark:#3b414d;   --zonefill:rgba(143,184,222,.14); --pathfill:rgba(230,181,94,.14); --zoneline:#8fb8de; --zonetext:#b7d2ea;   color-scheme:dark }} :root[data-theme="dark"]{   --paper:#14171d; --paper2:#1a1e26; --floor:#20252e; --ink:#e9e7e0; --muted:#9ca3ae; --rule:#2f343e;   --accent:#8fb8de; --accent-soft:#1f2e3d; --bad:#ef8b80; --ok:#80cf9c; --warn:#e6b55e;   --ok-soft:#1b3326; --warn-soft:#3a2d14; --bad-soft:#3d1f1d;   --wall:#cfd3db; --winfill:#2e4d66; --voidfill:#272b34; --chim:#5e6876; --terrace:#2a2d33;   --bedfill:#3b3629; --wetfill:#233746; --wardfill:#383327; --furnfill:#2b303a; --furndark:#3b414d;   --zonefill:rgba(143,184,222,.14); --pathfill:rgba(230,181,94,.14); --zoneline:#8fb8de; --zonetext:#b7d2ea;   color-scheme:dark }  .plan{display:block;width:100%;max-width:100%;height:auto;background:var(--paper2);border:1px solid var(--rule)} .plan .wall{fill:var(--wall)} .plan .wall-new{fill:var(--accent)} .plan .wall-gone{fill:none;stroke:var(--bad);stroke-width:1.4;stroke-dasharray:4 3} .plan .floor{fill:var(--floor)} .plan .outline{fill:none;stroke:var(--muted);stroke-width:1;stroke-dasharray:6 4} .plan .terrace{fill:var(--terrace)} .plan .win{fill:var(--winfill)} .plan .win-new{fill:var(--winfill);stroke:var(--accent);stroke-width:1.2} .plan .winl{stroke:var(--ink);stroke-width:.8} .plan .open{fill:var(--floor)} .plan .arc{fill:none;stroke:var(--ink);stroke-width:.7;stroke-dasharray:3 2} .plan .pocket{fill:var(--floor);fill-opacity:.55;stroke:var(--accent);stroke-width:1;stroke-dasharray:3 2} .plan .leaf{fill:var(--floor);stroke:var(--ink);stroke-width:1.1} .plan .leaf-new{fill:var(--floor);stroke:var(--accent);stroke-width:1.3} .plan .mirror{stroke:var(--accent);stroke-width:2.2} .plan .lamp{fill:none;stroke:var(--ink);stroke-width:.6} .plan .winf{stroke:var(--ink);stroke-width:.5} .plan .glass{stroke:var(--accent);stroke-width:2} .plan .f-bed{fill:var(--bedfill);stroke:var(--ink);stroke-width:.8} .plan .f-head{fill:var(--ink)} .plan .pillow{fill:var(--floor);stroke:var(--ink);stroke-width:.6} .plan .f-wet{fill:var(--wetfill);stroke:var(--ink);stroke-width:.8} .plan .f-wet-in{fill:var(--floor);stroke:var(--ink);stroke-width:.5} .plan .basin{fill:var(--floor);stroke:var(--ink);stroke-width:.7} .plan .bowl{fill:var(--floor);stroke:var(--ink);stroke-width:.8} .plan .drain{fill:var(--ink)} .plan .hob{fill:none;stroke:var(--ink);stroke-width:.7} .plan .f-ward{fill:var(--wardfill);stroke:var(--ink);stroke-width:.8} .plan .rail{stroke:var(--ink);stroke-width:1} .plan .f-furn{fill:var(--furnfill);stroke:var(--ink);stroke-width:.8} .plan .f-furn-dark{fill:var(--furndark)} .plan .f-chair{fill:var(--furnfill);stroke:var(--ink);stroke-width:.6} .plan .f-ring{fill:none;stroke:var(--ink);stroke-width:.8} .plan .f-rad{fill:var(--accent)} .plan .stairs{fill:var(--floor);stroke:var(--ink);stroke-width:.8} .plan .void{fill:var(--voidfill);stroke:var(--ink);stroke-width:.5;stroke-dasharray:2 2} .plan .chim{fill:var(--chim)} .plan .thin{stroke:var(--ink);stroke-width:.6} .plan .hair{stroke:var(--ink);stroke-width:.35;opacity:.7} .plan .arrow{stroke:var(--ink);stroke-width:1;marker-end:url(#ah)} .plan .zone{fill:var(--zonefill);stroke:var(--zoneline);stroke-width:.7;stroke-dasharray:3 2} .plan .zone-path{fill:var(--pathfill);stroke:var(--zoneline);stroke-width:.7;stroke-dasharray:3 2} .plan .ztext{font-family:var(--mono);font-size:8.5px;fill:var(--zonetext);text-anchor:middle} .plan .walk{fill:none;stroke:var(--bad);stroke-width:1.4;stroke-dasharray:5 3;opacity:.85} .plan .callout{fill:var(--accent)} .plan .callout-t{font-family:var(--mono);font-size:11px;font-weight:600;fill:var(--paper2);text-anchor:middle} .plan .rname{font-family:var(--display);font-size:12.5px;font-weight:600;fill:var(--ink);text-anchor:middle} .plan .rarea{font-family:var(--mono);font-size:11px;fill:var(--accent);text-anchor:middle} .plan .rsub{font-family:var(--mono);font-size:8.5px;fill:var(--muted);text-anchor:middle} .plan .flabel{font-family:var(--body);font-size:8.5px;fill:var(--ink);text-anchor:middle} .plan .tiny{font-family:var(--mono);font-size:7.5px;fill:var(--muted);text-anchor:middle} .plan .note{font-family:var(--mono);font-size:9px;fill:var(--muted)} .plan .dim{stroke:var(--muted);stroke-width:.7} .plan .dimt{font-family:var(--mono);font-size:9.5px;fill:var(--muted);text-anchor:middle} .plan .northp{fill:var(--ink)} .plan .sb-a{fill:var(--ink)} .plan .sb-b{fill:var(--paper2);stroke:var(--ink);stroke-width:.6}  svg{background:var(--paper2)}</style><defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs><g transform="translate(70.0 56.0)">
+<rect x="0" y="0" width="786.6" height="770.6" class="wall"/>
+<rect x="78.1" y="23.0" width="152.3" height="412.2" class="floor" shape-rendering="crispEdges"/>
+<rect x="238.1" y="361.6" width="525.4" height="73.6" class="floor" shape-rendering="crispEdges"/>
+<rect x="238.1" y="23.0" width="192.0" height="162.6" class="floor" shape-rendering="crispEdges"/>
+<rect x="238.1" y="193.3" width="192.0" height="160.6" class="floor" shape-rendering="crispEdges"/>
+<rect x="437.8" y="23.0" width="125.4" height="330.9" class="floor" shape-rendering="crispEdges"/>
+<rect x="570.9" y="23.0" width="192.6" height="330.9" class="floor" shape-rendering="crispEdges"/>
+<rect x="14.1" y="442.9" width="331.5" height="304.6" class="floor" shape-rendering="crispEdges"/>
+<rect x="353.3" y="442.9" width="410.2" height="304.6" class="floor" shape-rendering="crispEdges"/>
+
+<rect x="14.1" y="87.0" width="64.0" height="259.2" class="stairs"/>
+<line x1="14.1" y1="104.3" x2="78.1" y2="104.3" class="hair"/>
+<line x1="14.1" y1="121.6" x2="78.1" y2="121.6" class="hair"/>
+<line x1="14.1" y1="138.9" x2="78.1" y2="138.9" class="hair"/>
+<line x1="14.1" y1="156.2" x2="78.1" y2="156.2" class="hair"/>
+<line x1="14.1" y1="173.4" x2="78.1" y2="173.4" class="hair"/>
+<line x1="14.1" y1="190.7" x2="78.1" y2="190.7" class="hair"/>
+<line x1="14.1" y1="208.0" x2="78.1" y2="208.0" class="hair"/>
+<line x1="14.1" y1="225.3" x2="78.1" y2="225.3" class="hair"/>
+<line x1="14.1" y1="242.6" x2="78.1" y2="242.6" class="hair"/>
+<line x1="14.1" y1="259.8" x2="78.1" y2="259.8" class="hair"/>
+<line x1="14.1" y1="277.1" x2="78.1" y2="277.1" class="hair"/>
+<line x1="14.1" y1="294.4" x2="78.1" y2="294.4" class="hair"/>
+<line x1="14.1" y1="311.7" x2="78.1" y2="311.7" class="hair"/>
+<line x1="14.1" y1="329.0" x2="78.1" y2="329.0" class="hair"/>
+<line x1="46.1" y1="94.7" x2="46.1" y2="338.6" class="arrow"/>
+<rect x="246.4" y="28.8" width="44.8" height="44.8" class="f-furn"/>
+<circle cx="268.8" cy="51.2" r="13.4" class="f-ring"/>
+<rect x="304.0" y="28.8" width="51.2" height="51.2" class="f-furn"/>
+<circle cx="329.6" cy="54.4" r="15.4" class="f-ring"/>
+<rect x="371.2" y="28.8" width="51.2" height="25.6" class="f-furn"/>
+<rect x="246.4" y="198.4" width="41.6" height="41.6" class="f-furn"/>
+<circle cx="267.2" cy="219.2" r="12.5" class="f-ring"/>
+<rect x="294.4" y="198.4" width="41.6" height="41.6" class="f-furn"/>
+<circle cx="315.2" cy="219.2" r="12.5" class="f-ring"/>
+<rect x="352.0" y="198.4" width="70.4" height="32.0" class="f-furn"/>
+<rect x="582.4" y="32.0" width="89.6" height="51.2" class="f-furn"/>
+<rect x="582.4" y="294.4" width="172.8" height="51.2" class="f-furn"/>
+<rect x="25.6" y="678.4" width="128.0" height="64.0" class="f-furn" rx="4"/>
+<rect x="25.6" y="728.3" width="128.0" height="14.1" class="f-furn-dark" rx="4"/>
+<rect x="25.6" y="678.4" width="9.0" height="64.0" class="f-furn-dark" rx="3"/>
+<rect x="144.6" y="678.4" width="9.0" height="64.0" class="f-furn-dark" rx="3"/>
+<rect x="243.2" y="454.4" width="96.0" height="38.4" class="f-furn"/>
+<rect x="230.4" y="23.0" width="7.7" height="412.2" class="wall" shape-rendering="crispEdges"/>
+<rect x="238.1" y="185.6" width="192.0" height="7.7" class="wall" shape-rendering="crispEdges"/>
+<rect x="430.1" y="23.0" width="7.7" height="330.9" class="wall" shape-rendering="crispEdges"/>
+<rect x="563.2" y="23.0" width="7.7" height="330.9" class="wall" shape-rendering="crispEdges"/>
+<rect x="238.1" y="353.9" width="525.4" height="7.7" class="wall" shape-rendering="crispEdges"/>
+<rect x="14.1" y="435.2" width="749.4" height="7.7" class="wall" shape-rendering="crispEdges"/>
+<rect x="345.6" y="442.9" width="7.7" height="304.6" class="wall" shape-rendering="crispEdges"/>
+<rect x="763.5" y="115.2" width="23.0" height="153.6" class="win-new"/>
+<rect x="64.0" y="747.5" width="230.4" height="23.0" class="win-new"/>
+<rect x="230.4" y="102.4" width="7.7" height="57.6" class="open" shape-rendering="crispEdges"/>
+<rect x="230.4" y="243.2" width="7.7" height="57.6" class="open" shape-rendering="crispEdges"/>
+<rect x="467.2" y="353.9" width="57.6" height="7.7" class="open" shape-rendering="crispEdges"/>
+<rect x="640.0" y="353.9" width="57.6" height="7.7" class="open" shape-rendering="crispEdges"/>
+<rect x="102.4" y="435.2" width="57.6" height="7.7" class="open" shape-rendering="crispEdges"/>
+<rect x="384.0" y="435.2" width="57.6" height="7.7" class="open" shape-rendering="crispEdges"/>
+<rect x="234.2" y="102.4" width="57.6" height="2.9" class="leaf"/>
+<path d="M 234.2 160.0 A 57.6 57.6 0 0 0 291.8 104.0" class="arc"/>
+<rect x="234.2" y="243.2" width="57.6" height="2.9" class="leaf"/>
+<path d="M 234.2 300.8 A 57.6 57.6 0 0 0 291.8 244.8" class="arc"/>
+<rect x="521.9" y="300.2" width="2.9" height="57.6" class="leaf"/>
+<path d="M 467.2 357.8 A 57.6 57.6 0 0 1 523.2 300.2" class="arc"/>
+<rect x="694.7" y="357.8" width="2.9" height="57.6" class="leaf"/>
+<path d="M 640.0 357.8 A 57.6 57.6 0 0 0 696.0 415.4" class="arc"/>
+<rect x="102.4" y="439.0" width="2.9" height="57.6" class="leaf"/>
+<path d="M 160.0 439.0 A 57.6 57.6 0 0 1 104.0 496.6" class="arc"/>
+<rect x="384.0" y="439.0" width="2.9" height="57.6" class="leaf"/>
+<path d="M 441.6 439.0 A 57.6 57.6 0 0 1 385.6 496.6" class="arc"/>
+<text x="46.1" y="107.5" class="tiny" text-anchor="middle">up</text>
+<text transform="translate(46.1 219.8) rotate(-90)" class="tiny" text-anchor="middle">cellar flight, under the main stair</text>
+<text x="153.6" y="187.0" class="rname" text-anchor="middle">Cellar hall</text>
+<text x="153.6" y="202.0" class="rarea" text-anchor="middle">14.3 m²</text>
+<text x="153.6" y="215.0" class="rsub" text-anchor="middle">bikes · pram</text>
+<text x="499.2" y="398.2" class="rname" text-anchor="middle">Corridor</text>
+<text x="499.2" y="413.2" class="rarea" text-anchor="middle">9.4 m²</text>
+<text x="332.8" y="129.4" class="rname" text-anchor="middle">Plant room</text>
+<text x="332.8" y="144.4" class="rarea" text-anchor="middle">7.6 m²</text>
+<text x="332.8" y="157.4" class="rsub" text-anchor="middle">heat pump · tank · electrics</text>
+<text x="332.8" y="308.6" class="rname" text-anchor="middle">Laundry</text>
+<text x="332.8" y="323.6" class="rarea" text-anchor="middle">7.5 m²</text>
+<text x="332.8" y="336.6" class="rsub" text-anchor="middle">washer · dryer · drying</text>
+<text x="500.5" y="187.0" class="rname" text-anchor="middle">Store</text>
+<text x="500.5" y="202.0" class="rarea" text-anchor="middle">10.1 m²</text>
+<text x="500.5" y="215.0" class="rsub" text-anchor="middle">food store</text>
+<text x="665.6" y="187.0" class="rname" text-anchor="middle">Hobby / fitness</text>
+<text x="665.6" y="202.0" class="rarea" text-anchor="middle">15.6 m²</text>
+<text x="665.6" y="215.0" class="rsub" text-anchor="middle">light well east</text>
+<text x="179.2" y="571.0" class="rname" text-anchor="middle">Guest / office</text>
+<text x="179.2" y="586.0" class="rarea" text-anchor="middle">24.7 m²</text>
+<text x="179.2" y="599.0" class="rsub" text-anchor="middle">light well south</text>
+<text x="556.8" y="590.2" class="rname" text-anchor="middle">Store 2</text>
+<text x="556.8" y="605.2" class="rarea" text-anchor="middle">30.5 m²</text>
+<text x="556.8" y="618.2" class="rsub" text-anchor="middle">general · seasonal · garden</text>
+<text transform="translate(272.0 51.2) rotate(-90)" class="flabel" text-anchor="middle">Heat pump</text>
+<text transform="translate(332.8 54.4) rotate(-90)" class="flabel" text-anchor="middle">Tank</text>
+<text x="396.8" y="44.6" class="flabel" text-anchor="middle">Electrics</text>
+<text x="267.2" y="222.2" class="flabel" text-anchor="middle">Washer</text>
+<text x="315.2" y="222.2" class="flabel" text-anchor="middle">Dryer</text>
+<text x="387.2" y="217.4" class="flabel" text-anchor="middle">Sink / folding</text>
+<text x="627.2" y="60.6" class="flabel" text-anchor="middle">Treadmill</text>
+<text x="668.8" y="323.0" class="flabel" text-anchor="middle">Bench / weights</text>
+<text x="89.6" y="713.4" class="flabel" text-anchor="middle">Sofa bed 2.0 × 1.0</text>
+<text x="291.2" y="476.6" class="flabel" text-anchor="middle">Desk</text>
+<g transform="translate(815.4 -22.4)"><polygon points="0,-15 5,6 0,2 -5,6" class="northp"/><text y="-19" class="dimt" text-anchor="middle">N</text></g>
+<rect x="0.0" y="828.2" width="32.0" height="5.8" class="sb-a"/>
+<rect x="32.0" y="828.2" width="32.0" height="5.8" class="sb-b"/>
+<rect x="64.0" y="828.2" width="32.0" height="5.8" class="sb-a"/>
+<rect x="96.0" y="828.2" width="32.0" height="5.8" class="sb-b"/>
+<text x="0.0" y="823.7" class="dimt" text-anchor="middle">0</text>
+<text x="64.0" y="823.7" class="dimt" text-anchor="middle">1 m</text>
+<text x="128.0" y="823.7" class="dimt" text-anchor="middle">2 m</text>
+<line x1="0.0" y1="-54.4" x2="786.6" y2="-54.4" class="dim"/>
+<line x1="0.0" y1="-59.5" x2="0.0" y2="-49.3" class="dim"/>
+<line x1="786.6" y1="-59.5" x2="786.6" y2="-49.3" class="dim"/>
+<text x="393.3" y="-58.2" class="dimt" text-anchor="middle">12.29 outside</text>
+<text transform="translate(800.6 192.0) rotate(-90)" class="note" text-anchor="middle">light well</text>
+<text x="179.2" y="785.9" class="note" text-anchor="middle">light well</text>
+<line x1="-25.6" y1="23.0" x2="-25.6" y2="353.9" class="dim"/>
+<line x1="-30.7" y1="23.0" x2="-20.5" y2="23.0" class="dim"/>
+<line x1="-30.7" y1="353.9" x2="-20.5" y2="353.9" class="dim"/>
+<text transform="translate(-30.1 188.5) rotate(-90)" class="dimt" text-anchor="middle">5.17</text>
+<line x1="-25.6" y1="353.9" x2="-25.6" y2="361.6" class="dim"/>
+<line x1="-30.7" y1="353.9" x2="-20.5" y2="353.9" class="dim"/>
+<line x1="-30.7" y1="361.6" x2="-20.5" y2="361.6" class="dim"/>
+<line x1="-25.6" y1="361.6" x2="-25.6" y2="435.2" class="dim"/>
+<line x1="-30.7" y1="361.6" x2="-20.5" y2="361.6" class="dim"/>
+<line x1="-30.7" y1="435.2" x2="-20.5" y2="435.2" class="dim"/>
+<text transform="translate(-30.1 398.4) rotate(-90)" class="dimt" text-anchor="middle">1.15</text>
+<line x1="-25.6" y1="435.2" x2="-25.6" y2="442.9" class="dim"/>
+<line x1="-30.7" y1="435.2" x2="-20.5" y2="435.2" class="dim"/>
+<line x1="-30.7" y1="442.9" x2="-20.5" y2="442.9" class="dim"/>
+<line x1="-25.6" y1="442.9" x2="-25.6" y2="747.5" class="dim"/>
+<line x1="-30.7" y1="442.9" x2="-20.5" y2="442.9" class="dim"/>
+<line x1="-30.7" y1="747.5" x2="-20.5" y2="747.5" class="dim"/>
+<text transform="translate(-30.1 595.2) rotate(-90)" class="dimt" text-anchor="middle">4.76</text>
+<line x1="14.1" y1="-25.6" x2="78.1" y2="-25.6" class="dim"/>
+<line x1="14.1" y1="-30.7" x2="14.1" y2="-20.5" class="dim"/>
+<line x1="78.1" y1="-30.7" x2="78.1" y2="-20.5" class="dim"/>
+<text x="46.1" y="-29.4" class="dimt" text-anchor="middle">1.00</text>
+<line x1="78.1" y1="-25.6" x2="85.8" y2="-25.6" class="dim"/>
+<line x1="78.1" y1="-30.7" x2="78.1" y2="-20.5" class="dim"/>
+<line x1="85.8" y1="-30.7" x2="85.8" y2="-20.5" class="dim"/>
+<line x1="85.8" y1="-25.6" x2="230.4" y2="-25.6" class="dim"/>
+<line x1="85.8" y1="-30.7" x2="85.8" y2="-20.5" class="dim"/>
+<line x1="230.4" y1="-30.7" x2="230.4" y2="-20.5" class="dim"/>
+<text x="158.1" y="-29.4" class="dimt" text-anchor="middle">2.26</text>
+<line x1="230.4" y1="-25.6" x2="238.1" y2="-25.6" class="dim"/>
+<line x1="230.4" y1="-30.7" x2="230.4" y2="-20.5" class="dim"/>
+<line x1="238.1" y1="-30.7" x2="238.1" y2="-20.5" class="dim"/>
+<line x1="238.1" y1="-25.6" x2="430.1" y2="-25.6" class="dim"/>
+<line x1="238.1" y1="-30.7" x2="238.1" y2="-20.5" class="dim"/>
+<line x1="430.1" y1="-30.7" x2="430.1" y2="-20.5" class="dim"/>
+<text x="334.1" y="-29.4" class="dimt" text-anchor="middle">3.00</text>
+<line x1="430.1" y1="-25.6" x2="437.8" y2="-25.6" class="dim"/>
+<line x1="430.1" y1="-30.7" x2="430.1" y2="-20.5" class="dim"/>
+<line x1="437.8" y1="-30.7" x2="437.8" y2="-20.5" class="dim"/>
+<line x1="437.8" y1="-25.6" x2="563.2" y2="-25.6" class="dim"/>
+<line x1="437.8" y1="-30.7" x2="437.8" y2="-20.5" class="dim"/>
+<line x1="563.2" y1="-30.7" x2="563.2" y2="-20.5" class="dim"/>
+<text x="500.5" y="-29.4" class="dimt" text-anchor="middle">1.96</text>
+<line x1="563.2" y1="-25.6" x2="570.9" y2="-25.6" class="dim"/>
+<line x1="563.2" y1="-30.7" x2="563.2" y2="-20.5" class="dim"/>
+<line x1="570.9" y1="-30.7" x2="570.9" y2="-20.5" class="dim"/>
+<line x1="570.9" y1="-25.6" x2="763.5" y2="-25.6" class="dim"/>
+<line x1="570.9" y1="-30.7" x2="570.9" y2="-20.5" class="dim"/>
+<line x1="763.5" y1="-30.7" x2="763.5" y2="-20.5" class="dim"/>
+<text x="667.2" y="-29.4" class="dimt" text-anchor="middle">3.01</text></g></svg>
