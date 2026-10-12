@@ -37,7 +37,7 @@ def entrance_strip(p):
     p.furn("Cellar stair lobby", 1.40, 5.60, 2.90, 5.95, "Coats · boots")
 
 def t4_eg():
-    p = base("Two storeys T4 · ground floor · 8.29 × 14.57")
+    p = base("Two storeys T4 · ground floor · 8.29 × 14.07")
     p.window("N", 4.60, 7.00, note="kitchen window, sill 1.20"); p.window("E", 12.30, 13.30); p.window("S", 0.80, 4.40, note="glass front 3.6 m: lift-slide 3.0 + fixed pane"); p.window("S", 5.20, 7.40)
     entrance_strip(p)
     p.room("Living · dining · kitchen", 3.12, 0.36, 7.93, 13.35, lx=4.5, ly=7.2, area=48.7, sub="67 m² with the lounge")
