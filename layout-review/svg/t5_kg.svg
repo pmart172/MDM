@@ -3,8 +3,8 @@
 <rect x="14.1" y="267.5" width="493.4" height="142.1" class="floor" shape-rendering="crispEdges"/>
 <rect x="14.1" y="23.0" width="229.1" height="236.8" class="floor" shape-rendering="crispEdges"/>
 <rect x="250.9" y="23.0" width="256.6" height="236.8" class="floor" shape-rendering="crispEdges"/>
-<rect x="14.1" y="417.3" width="229.1" height="437.1" class="floor" shape-rendering="crispEdges"/>
-<rect x="250.9" y="417.3" width="256.6" height="437.1" class="floor" shape-rendering="crispEdges"/>
+<rect x="14.1" y="417.3" width="229.1" height="460.2" class="floor" shape-rendering="crispEdges"/>
+<rect x="250.9" y="417.3" width="256.6" height="460.2" class="floor" shape-rendering="crispEdges"/>
 
 <rect x="90.9" y="267.5" width="275.2" height="64.0" class="stairs"/>
 <line x1="109.2" y1="267.5" x2="109.2" y2="331.5" class="hair"/>
@@ -32,13 +32,13 @@
 <rect x="307.2" y="28.8" width="41.6" height="41.6" class="f-furn"/>
 <circle cx="328.0" cy="49.6" r="12.5" class="f-ring"/>
 <rect x="371.2" y="28.8" width="76.8" height="32.0" class="f-furn"/>
-<rect x="448.0" y="198.4" width="51.2" height="51.2" class="f-furn"/>
+<rect x="153.6" y="204.8" width="48.0" height="48.0" class="f-furn"/>
 <rect x="25.6" y="531.2" width="89.6" height="51.2" class="f-furn"/>
 <rect x="147.2" y="755.2" width="83.2" height="51.2" class="f-furn"/>
 <rect x="243.2" y="23.0" width="7.7" height="236.8" class="wall" shape-rendering="crispEdges"/>
 <rect x="14.1" y="259.8" width="493.4" height="7.7" class="wall" shape-rendering="crispEdges"/>
 <rect x="14.1" y="409.6" width="493.4" height="7.7" class="wall" shape-rendering="crispEdges"/>
-<rect x="243.2" y="417.3" width="7.7" height="437.1" class="wall" shape-rendering="crispEdges"/>
+<rect x="243.2" y="417.3" width="7.7" height="460.2" class="wall" shape-rendering="crispEdges"/>
 <rect x="64.0" y="877.4" width="128.0" height="23.0" class="win-new"/>
 <rect x="507.5" y="576.0" width="23.0" height="153.6" class="win-new"/>
 <rect x="64.0" y="259.8" width="57.6" height="7.7" class="open" shape-rendering="crispEdges"/>
@@ -59,15 +59,15 @@
 <text x="192.0" y="387.6" class="rarea" text-anchor="middle">12.8 m²</text>
 <text x="128.0" y="135.8" class="rname" text-anchor="middle">Plant room</text>
 <text x="128.0" y="150.8" class="rarea" text-anchor="middle">13.2 m²</text>
-<text x="128.0" y="163.8" class="rsub" text-anchor="middle">heat pump · tank · electrics</text>
+<text x="128.0" y="163.8" class="rsub" text-anchor="middle">heat pump · tank · electrics · Hebeanlage</text>
 <text x="377.6" y="135.8" class="rname" text-anchor="middle">Laundry</text>
 <text x="377.6" y="150.8" class="rarea" text-anchor="middle">14.8 m²</text>
-<text x="377.6" y="163.8" class="rsub" text-anchor="middle">washer · dryer · drying · Hebeanlage</text>
+<text x="377.6" y="163.8" class="rsub" text-anchor="middle">washer · dryer · drying</text>
 <text x="128.0" y="603.0" class="rname" text-anchor="middle">Hobby / fitness</text>
-<text x="128.0" y="618.0" class="rarea" text-anchor="middle">24.5 m²</text>
+<text x="128.0" y="618.0" class="rarea" text-anchor="middle">25.7 m²</text>
 <text x="128.0" y="631.0" class="rsub" text-anchor="middle">light well south</text>
 <text x="377.6" y="603.0" class="rname" text-anchor="middle">Store</text>
-<text x="377.6" y="618.0" class="rarea" text-anchor="middle">27.4 m²</text>
+<text x="377.6" y="618.0" class="rarea" text-anchor="middle">28.8 m²</text>
 <text x="377.6" y="631.0" class="rsub" text-anchor="middle">light well east · food · bikes · garden</text>
 <text x="44.8" y="54.2" class="flabel" text-anchor="middle">Heat pump</text>
 <text transform="translate(108.8 54.4) rotate(-90)" class="flabel" text-anchor="middle">Tank</text>
@@ -75,7 +75,7 @@
 <text x="280.0" y="52.6" class="flabel" text-anchor="middle">Washer</text>
 <text x="328.0" y="52.6" class="flabel" text-anchor="middle">Dryer</text>
 <text x="409.6" y="47.8" class="flabel" text-anchor="middle">Sink / folding</text>
-<text x="473.6" y="227.0" class="flabel" text-anchor="middle">Hebeanlage</text>
+<text x="177.6" y="231.8" class="flabel" text-anchor="middle">Hebeanlage</text>
 <text x="70.4" y="559.8" class="flabel" text-anchor="middle">Treadmill</text>
 <text x="188.8" y="783.8" class="flabel" text-anchor="middle">Weights</text>
 <g transform="translate(559.4 -22.4)"><polygon points="0,-15 5,6 0,2 -5,6" class="northp"/><text y="-19" class="dimt" text-anchor="middle">N</text></g>
@@ -106,7 +106,7 @@
 <line x1="-25.6" y1="409.6" x2="-25.6" y2="417.3" class="dim"/>
 <line x1="-30.7" y1="409.6" x2="-20.5" y2="409.6" class="dim"/>
 <line x1="-30.7" y1="417.3" x2="-20.5" y2="417.3" class="dim"/>
-<line x1="-25.6" y1="417.3" x2="-25.6" y2="854.4" class="dim"/>
+<line x1="-25.6" y1="417.3" x2="-25.6" y2="877.4" class="dim"/>
 <line x1="-30.7" y1="417.3" x2="-20.5" y2="417.3" class="dim"/>
-<line x1="-30.7" y1="854.4" x2="-20.5" y2="854.4" class="dim"/>
-<text transform="translate(-30.1 635.8) rotate(-90)" class="dimt" text-anchor="middle">6.83</text></g></svg>
+<line x1="-30.7" y1="877.4" x2="-20.5" y2="877.4" class="dim"/>
+<text transform="translate(-30.1 647.4) rotate(-90)" class="dimt" text-anchor="middle">7.19</text></g></svg>

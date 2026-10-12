@@ -3,13 +3,13 @@
 <text x="684.5" y="240.0" class="tiny" text-anchor="middle">4.8–6.9 × 7.42, roof at EG + 2.57</text>
 <text x="684.5" y="262.4" class="tiny" text-anchor="middle">(east half: follows the boundary jog)</text>
 <rect x="0" y="0" width="530.6" height="900.5" class="wall"/>
-<rect x="14.1" y="23.0" width="185.6" height="162.6" class="floor" shape-rendering="crispEdges"/>
-<rect x="85.8" y="193.3" width="106.2" height="88.3" class="floor" shape-rendering="crispEdges"/>
-<rect x="85.8" y="289.3" width="106.2" height="57.0" class="floor" shape-rendering="crispEdges"/>
-<rect x="14.1" y="353.9" width="177.9" height="74.9" class="floor" shape-rendering="crispEdges"/>
-<rect x="199.7" y="23.0" width="307.8" height="831.4" class="floor" shape-rendering="crispEdges"/>
-<rect x="14.1" y="436.5" width="185.6" height="417.9" class="floor" shape-rendering="crispEdges"/>
-<rect x="302.7" y="636.8" width="204.8" height="217.6" class="floor" shape-rendering="crispEdges"/>
+<rect x="14.1" y="23.0" width="204.8" height="162.6" class="floor" shape-rendering="crispEdges"/>
+<rect x="85.8" y="185.6" width="60.8" height="168.3" class="floor" shape-rendering="crispEdges"/>
+<rect x="154.2" y="193.3" width="57.0" height="153.0" class="floor" shape-rendering="crispEdges"/>
+<rect x="14.1" y="353.9" width="197.1" height="74.9" class="floor" shape-rendering="crispEdges"/>
+<rect x="218.9" y="23.0" width="288.6" height="854.4" class="floor" shape-rendering="crispEdges"/>
+<rect x="14.1" y="436.5" width="197.1" height="441.0" class="floor" shape-rendering="crispEdges"/>
+<rect x="302.7" y="508.8" width="204.8" height="368.6" class="floor" shape-rendering="crispEdges"/>
 <rect x="379.5" y="508.8" width="128.0" height="120.3" class="floor" shape-rendering="crispEdges"/>
 
 <rect x="14.1" y="87.0" width="64.0" height="259.2" class="stairs"/>
@@ -29,160 +29,160 @@
 <line x1="14.1" y1="329.0" x2="78.1" y2="329.0" class="hair"/>
 <line x1="46.1" y1="94.7" x2="46.1" y2="338.6" class="arrow"/>
 <line x1="46.1" y1="300.8" x2="46.1" y2="348.8" class="arrow"/>
-<rect x="161.3" y="23.0" width="38.4" height="96.0" class="f-ward"/>
-<line x1="180.5" y1="26.2" x2="180.5" y2="115.8" class="rail"/>
-<line x1="174.1" y1="39.0" x2="186.9" y2="39.0" class="hair"/>
-<line x1="174.1" y1="55.0" x2="186.9" y2="55.0" class="hair"/>
-<line x1="174.1" y1="71.0" x2="186.9" y2="71.0" class="hair"/>
-<line x1="174.1" y1="87.0" x2="186.9" y2="87.0" class="hair"/>
-<line x1="174.1" y1="103.0" x2="186.9" y2="103.0" class="hair"/>
-<rect x="103.0" y="270.1" width="24.3" height="11.5" class="f-wet"/>
-<ellipse cx="115.2" cy="254.7" rx="10.9" ry="14.7" class="bowl"/>
-<rect x="160.0" y="198.4" width="32.0" height="32.0" class="f-furn"/>
-<rect x="161.3" y="203.5" width="29.4" height="21.8" class="basin" rx="7"/>
-<circle cx="176.0" cy="224.6" r="1.9" class="drain"/>
-<line x1="190.7" y1="201.6" x2="190.7" y2="227.2" class="mirror"/>
-<rect x="85.8" y="289.3" width="106.2" height="57.0" class="f-furn"/>
-<rect x="89.6" y="358.4" width="96.0" height="22.4" class="f-furn"/>
-<rect x="199.7" y="23.0" width="38.4" height="96.0" class="f-furn"/>
-<rect x="238.7" y="23.0" width="268.8" height="38.4" class="f-furn"/>
-<rect x="345.6" y="29.4" width="51.2" height="25.6" class="basin" rx="3"/>
-<circle cx="371.2" cy="42.2" r="1.9" class="drain"/>
-<circle cx="265.6" cy="33.9" r="5.1" class="hob"/>
-<circle cx="284.8" cy="33.9" r="5.1" class="hob"/>
-<circle cx="265.6" cy="50.6" r="5.1" class="hob"/>
-<circle cx="284.8" cy="50.6" r="5.1" class="hob"/>
-<rect x="469.1" y="64.0" width="38.4" height="32.0" class="f-furn"/>
-<rect x="275.2" y="134.4" width="153.6" height="76.8" class="f-furn"/>
-<rect x="294.4" y="307.2" width="128.0" height="64.0" class="f-furn"/>
-<rect x="312.0" y="273.3" width="28.8" height="28.8" class="f-chair" rx="4"/>
-<rect x="344.0" y="273.3" width="28.8" height="28.8" class="f-chair" rx="4"/>
-<rect x="376.0" y="273.3" width="28.8" height="28.8" class="f-chair" rx="4"/>
-<rect x="312.0" y="376.3" width="28.8" height="28.8" class="f-chair" rx="4"/>
-<rect x="344.0" y="376.3" width="28.8" height="28.8" class="f-chair" rx="4"/>
-<rect x="376.0" y="376.3" width="28.8" height="28.8" class="f-chair" rx="4"/>
-<rect x="14.1" y="569.6" width="64.0" height="128.0" class="f-furn" rx="4"/>
-<rect x="14.1" y="569.6" width="14.1" height="128.0" class="f-furn-dark" rx="4"/>
-<rect x="14.1" y="569.6" width="64.0" height="9.0" class="f-furn-dark" rx="3"/>
-<rect x="14.1" y="688.6" width="64.0" height="9.0" class="f-furn-dark" rx="3"/>
-<rect x="211.2" y="524.8" width="128.0" height="64.0" class="f-furn" rx="4"/>
-<rect x="211.2" y="524.8" width="128.0" height="14.1" class="f-furn-dark" rx="4"/>
-<rect x="211.2" y="524.8" width="9.0" height="64.0" class="f-furn-dark" rx="3"/>
-<rect x="330.2" y="524.8" width="9.0" height="64.0" class="f-furn-dark" rx="3"/>
-<rect x="102.4" y="620.8" width="64.0" height="51.2" class="f-furn"/>
-<rect x="269.4" y="646.4" width="25.6" height="102.4" class="f-furn"/>
+<rect x="180.5" y="23.0" width="38.4" height="96.0" class="f-ward"/>
+<line x1="199.7" y1="26.2" x2="199.7" y2="115.8" class="rail"/>
+<line x1="193.3" y1="39.0" x2="206.1" y2="39.0" class="hair"/>
+<line x1="193.3" y1="55.0" x2="206.1" y2="55.0" class="hair"/>
+<line x1="193.3" y1="71.0" x2="206.1" y2="71.0" class="hair"/>
+<line x1="193.3" y1="87.0" x2="206.1" y2="87.0" class="hair"/>
+<line x1="193.3" y1="103.0" x2="206.1" y2="103.0" class="hair"/>
+<rect x="170.6" y="334.7" width="24.3" height="11.5" class="f-wet"/>
+<ellipse cx="182.7" cy="319.4" rx="10.9" ry="14.7" class="bowl"/>
+<rect x="163.2" y="193.3" width="38.4" height="28.8" class="f-furn"/>
+<rect x="167.7" y="196.8" width="29.4" height="21.8" class="basin" rx="7"/>
+<circle cx="182.4" cy="199.0" r="1.9" class="drain"/>
+<line x1="166.4" y1="194.6" x2="198.4" y2="194.6" class="mirror"/>
+<rect x="218.9" y="23.0" width="38.4" height="38.4" class="f-furn"/>
+<rect x="257.3" y="23.0" width="250.2" height="38.4" class="f-furn"/>
+<rect x="307.2" y="29.4" width="51.2" height="25.6" class="basin" rx="3"/>
+<circle cx="332.8" cy="42.2" r="1.9" class="drain"/>
+<circle cx="425.6" cy="33.9" r="5.1" class="hob"/>
+<circle cx="444.8" cy="33.9" r="5.1" class="hob"/>
+<circle cx="425.6" cy="50.6" r="5.1" class="hob"/>
+<circle cx="444.8" cy="50.6" r="5.1" class="hob"/>
+<rect x="288.0" y="134.4" width="153.6" height="76.8" class="f-furn"/>
+<rect x="313.6" y="326.4" width="128.0" height="64.0" class="f-furn"/>
+<rect x="331.2" y="292.5" width="28.8" height="28.8" class="f-chair" rx="4"/>
+<rect x="363.2" y="292.5" width="28.8" height="28.8" class="f-chair" rx="4"/>
+<rect x="395.2" y="292.5" width="28.8" height="28.8" class="f-chair" rx="4"/>
+<rect x="331.2" y="395.5" width="28.8" height="28.8" class="f-chair" rx="4"/>
+<rect x="363.2" y="395.5" width="28.8" height="28.8" class="f-chair" rx="4"/>
+<rect x="395.2" y="395.5" width="28.8" height="28.8" class="f-chair" rx="4"/>
+<rect x="14.1" y="595.2" width="64.0" height="128.0" class="f-furn" rx="4"/>
+<rect x="14.1" y="595.2" width="14.1" height="128.0" class="f-furn-dark" rx="4"/>
+<rect x="14.1" y="595.2" width="64.0" height="9.0" class="f-furn-dark" rx="3"/>
+<rect x="14.1" y="714.2" width="64.0" height="9.0" class="f-furn-dark" rx="3"/>
+<rect x="83.2" y="505.6" width="128.0" height="64.0" class="f-furn" rx="4"/>
+<rect x="83.2" y="505.6" width="128.0" height="14.1" class="f-furn-dark" rx="4"/>
+<rect x="83.2" y="505.6" width="9.0" height="64.0" class="f-furn-dark" rx="3"/>
+<rect x="202.2" y="505.6" width="9.0" height="64.0" class="f-furn-dark" rx="3"/>
+<rect x="102.4" y="633.6" width="64.0" height="51.2" class="f-furn"/>
+<rect x="269.4" y="665.6" width="25.6" height="102.4" class="f-furn"/>
 <rect x="14.1" y="441.6" width="25.6" height="96.0" class="f-furn"/>
-<rect x="379.5" y="675.2" width="128.0" height="102.4" class="f-bed"/>
-<rect x="503.0" y="675.2" width="4.5" height="102.4" class="f-head"/>
-<rect x="470.4" y="681.6" width="28.2" height="42.2" class="pillow" rx="3"/>
-<rect x="470.4" y="729.0" width="28.2" height="42.2" class="pillow" rx="3"/>
-<line x1="449.9" y1="677.8" x2="449.9" y2="775.0" class="thin"/>
-<rect x="480.6" y="643.2" width="26.9" height="26.9" class="f-furn"/>
-<circle cx="494.1" cy="656.6" r="5.8" class="lamp"/>
-<rect x="302.7" y="636.8" width="38.4" height="128.0" class="f-ward"/>
-<line x1="321.9" y1="640.0" x2="321.9" y2="761.6" class="rail"/>
-<line x1="315.5" y1="652.8" x2="328.3" y2="652.8" class="hair"/>
-<line x1="315.5" y1="668.8" x2="328.3" y2="668.8" class="hair"/>
-<line x1="315.5" y1="684.8" x2="328.3" y2="684.8" class="hair"/>
-<line x1="315.5" y1="700.8" x2="328.3" y2="700.8" class="hair"/>
-<line x1="315.5" y1="716.8" x2="328.3" y2="716.8" class="hair"/>
-<line x1="315.5" y1="732.8" x2="328.3" y2="732.8" class="hair"/>
-<line x1="315.5" y1="748.8" x2="328.3" y2="748.8" class="hair"/>
-<rect x="307.2" y="816.0" width="76.8" height="38.4" class="f-furn"/>
-<rect x="332.8" y="785.9" width="25.6" height="25.6" class="f-chair" rx="4"/>
-<rect x="449.9" y="508.8" width="57.6" height="57.6" class="f-wet"/>
-<circle cx="464.0" cy="522.9" r="3.2" class="drain"/>
-<line x1="449.9" y1="566.4" x2="507.5" y2="566.4" class="glass"/>
-<line x1="449.9" y1="508.8" x2="449.9" y2="566.4" class="glass"/>
-<rect x="413.4" y="508.8" width="24.3" height="11.5" class="f-wet"/>
-<ellipse cx="425.6" cy="535.7" rx="10.9" ry="14.7" class="bowl"/>
-<rect x="379.5" y="576.0" width="32.0" height="38.4" class="f-furn"/>
-<rect x="384.6" y="580.5" width="21.8" height="29.4" class="basin" rx="7"/>
-<circle cx="385.3" cy="595.2" r="1.9" class="drain"/>
-<line x1="380.8" y1="579.2" x2="380.8" y2="611.2" class="mirror"/>
-<rect x="78.1" y="185.6" width="121.6" height="7.7" class="wall" shape-rendering="crispEdges"/>
-<rect x="78.1" y="193.3" width="7.7" height="153.0" class="wall" shape-rendering="crispEdges"/>
-<rect x="85.8" y="281.6" width="106.2" height="7.7" class="wall" shape-rendering="crispEdges"/>
-<rect x="78.1" y="346.2" width="113.9" height="7.7" class="wall" shape-rendering="crispEdges"/>
-<rect x="14.1" y="428.8" width="185.6" height="7.7" class="wall" shape-rendering="crispEdges"/>
-<rect x="192.0" y="193.3" width="7.7" height="243.2" class="wall" shape-rendering="crispEdges"/>
-<rect x="295.0" y="636.8" width="7.7" height="217.6" class="wall" shape-rendering="crispEdges"/>
-<rect x="302.7" y="629.1" width="204.8" height="7.7" class="wall" shape-rendering="crispEdges"/>
-<rect x="371.8" y="508.8" width="7.7" height="120.3" class="wall" shape-rendering="crispEdges"/>
-<rect x="379.5" y="501.1" width="128.0" height="7.7" class="wall" shape-rendering="crispEdges"/>
+<rect x="302.7" y="508.8" width="69.1" height="38.4" class="f-ward"/>
+<line x1="305.9" y1="528.0" x2="368.6" y2="528.0" class="rail"/>
+<line x1="320.0" y1="521.6" x2="320.0" y2="534.4" class="hair"/>
+<line x1="337.3" y1="521.6" x2="337.3" y2="534.4" class="hair"/>
+<line x1="354.6" y1="521.6" x2="354.6" y2="534.4" class="hair"/>
+<rect x="379.5" y="678.4" width="128.0" height="102.4" class="f-bed"/>
+<rect x="503.0" y="678.4" width="4.5" height="102.4" class="f-head"/>
+<rect x="470.4" y="684.8" width="28.2" height="42.2" class="pillow" rx="3"/>
+<rect x="470.4" y="732.2" width="28.2" height="42.2" class="pillow" rx="3"/>
+<line x1="449.9" y1="681.0" x2="449.9" y2="778.2" class="thin"/>
+<rect x="480.6" y="646.4" width="26.9" height="26.9" class="f-furn"/>
+<circle cx="494.1" cy="659.8" r="5.8" class="lamp"/>
+<rect x="480.6" y="785.9" width="26.9" height="26.9" class="f-furn"/>
+<circle cx="494.1" cy="799.4" r="5.8" class="lamp"/>
+<rect x="302.7" y="787.2" width="38.4" height="90.2" class="f-ward"/>
+<line x1="321.9" y1="790.4" x2="321.9" y2="874.2" class="rail"/>
+<line x1="315.5" y1="805.2" x2="328.3" y2="805.2" class="hair"/>
+<line x1="315.5" y1="823.3" x2="328.3" y2="823.3" class="hair"/>
+<line x1="315.5" y1="841.3" x2="328.3" y2="841.3" class="hair"/>
+<line x1="315.5" y1="859.4" x2="328.3" y2="859.4" class="hair"/>
+<rect x="400.0" y="822.4" width="38.4" height="38.4" class="f-chair" rx="4"/>
+<rect x="379.5" y="508.8" width="64.0" height="57.6" class="f-wet"/>
+<circle cx="393.6" cy="522.9" r="3.2" class="drain"/>
+<line x1="379.5" y1="566.4" x2="443.5" y2="566.4" class="glass"/>
+<line x1="443.5" y1="508.8" x2="443.5" y2="566.4" class="glass"/>
+<rect x="461.4" y="508.8" width="24.3" height="11.5" class="f-wet"/>
+<ellipse cx="473.6" cy="535.7" rx="10.9" ry="14.7" class="bowl"/>
+<rect x="456.3" y="597.1" width="51.2" height="32.0" class="f-furn"/>
+<rect x="467.2" y="602.2" width="29.4" height="21.8" class="basin" rx="7"/>
+<circle cx="481.9" cy="623.4" r="1.9" class="drain"/>
+<line x1="459.5" y1="627.8" x2="504.3" y2="627.8" class="mirror"/>
+<rect x="78.1" y="185.6" width="7.7" height="160.6" class="wall" shape-rendering="crispEdges"/>
+<rect x="146.6" y="185.6" width="64.6" height="7.7" class="wall" shape-rendering="crispEdges"/>
+<rect x="146.6" y="193.3" width="7.7" height="153.0" class="wall" shape-rendering="crispEdges"/>
+<rect x="146.6" y="346.2" width="64.6" height="7.7" class="wall" shape-rendering="crispEdges"/>
+<rect x="14.1" y="428.8" width="197.1" height="7.7" class="wall" shape-rendering="crispEdges"/>
+<rect x="211.2" y="185.6" width="7.7" height="250.9" class="wall" shape-rendering="crispEdges"/>
+<rect x="295.0" y="508.8" width="7.7" height="368.6" class="wall" shape-rendering="crispEdges"/>
+<rect x="295.0" y="501.1" width="212.5" height="7.7" class="wall" shape-rendering="crispEdges"/>
+<rect x="371.8" y="508.8" width="7.7" height="128.0" class="wall" shape-rendering="crispEdges"/>
+<rect x="379.5" y="629.1" width="128.0" height="7.7" class="wall" shape-rendering="crispEdges"/>
 <rect x="294.4" y="0.0" width="153.6" height="23.0" class="win" shape-rendering="crispEdges"/>
 <line x1="294.4" y1="6.9" x2="448.0" y2="6.9" class="winf"/>
 <line x1="294.4" y1="11.5" x2="448.0" y2="11.5" class="winl"/>
 <line x1="294.4" y1="16.1" x2="448.0" y2="16.1" class="winf"/>
-<rect x="507.5" y="787.2" width="23.0" height="64.0" class="win" shape-rendering="crispEdges"/>
-<line x1="514.4" y1="787.2" x2="514.4" y2="851.2" class="winf"/>
-<line x1="519.0" y1="787.2" x2="519.0" y2="851.2" class="winl"/>
-<line x1="523.6" y1="787.2" x2="523.6" y2="851.2" class="winf"/>
+<rect x="507.5" y="518.4" width="23.0" height="51.2" class="win" shape-rendering="crispEdges"/>
+<line x1="514.4" y1="518.4" x2="514.4" y2="569.6" class="winf"/>
+<line x1="519.0" y1="518.4" x2="519.0" y2="569.6" class="winl"/>
+<line x1="523.6" y1="518.4" x2="523.6" y2="569.6" class="winf"/>
 <rect x="51.2" y="877.4" width="230.4" height="23.0" class="win" shape-rendering="crispEdges"/>
 <line x1="51.2" y1="884.4" x2="281.6" y2="884.4" class="winf"/>
 <line x1="51.2" y1="889.0" x2="281.6" y2="889.0" class="winl"/>
 <line x1="51.2" y1="893.6" x2="281.6" y2="893.6" class="winf"/>
-<rect x="332.8" y="877.4" width="140.8" height="23.0" class="win" shape-rendering="crispEdges"/>
-<line x1="332.8" y1="884.4" x2="473.6" y2="884.4" class="winf"/>
-<line x1="332.8" y1="889.0" x2="473.6" y2="889.0" class="winl"/>
-<line x1="332.8" y1="893.6" x2="473.6" y2="893.6" class="winf"/>
+<rect x="352.0" y="877.4" width="121.6" height="23.0" class="win" shape-rendering="crispEdges"/>
+<line x1="352.0" y1="884.4" x2="473.6" y2="884.4" class="winf"/>
+<line x1="352.0" y1="889.0" x2="473.6" y2="889.0" class="winl"/>
+<line x1="352.0" y1="893.6" x2="473.6" y2="893.6" class="winf"/>
 <rect x="89.6" y="0.0" width="60.2" height="23.0" class="open" shape-rendering="crispEdges"/>
-<rect x="92.8" y="185.6" width="57.6" height="7.7" class="open" shape-rendering="crispEdges"/>
-<rect x="192.0" y="294.4" width="7.7" height="48.0" class="open" shape-rendering="crispEdges"/>
-<rect x="192.0" y="364.8" width="7.7" height="57.6" class="open" shape-rendering="crispEdges"/>
+<rect x="146.6" y="230.4" width="7.7" height="57.6" class="open" shape-rendering="crispEdges"/>
+<rect x="211.2" y="364.8" width="7.7" height="57.6" class="open" shape-rendering="crispEdges"/>
 <rect x="507.5" y="102.4" width="23.0" height="57.6" class="open" shape-rendering="crispEdges"/>
-<rect x="295.0" y="787.2" width="7.7" height="57.6" class="open" shape-rendering="crispEdges"/>
-<rect x="435.2" y="629.1" width="57.6" height="7.7" class="open" shape-rendering="crispEdges"/>
-<rect x="89.6" y="11.5" width="2.9" height="60.2" class="leaf"/>
-<path d="M 149.8 11.5 A 60.2 60.2 0 0 1 91.2 71.7" class="arc"/>
-<rect x="147.5" y="131.8" width="2.9" height="57.6" class="leaf"/>
-<path d="M 92.8 189.4 A 57.6 57.6 0 0 1 148.8 131.8" class="arc"/>
-<rect x="195.8" y="419.5" width="57.6" height="2.9" class="leaf"/>
-<path d="M 195.8 364.8 A 57.6 57.6 0 0 1 253.4 420.8" class="arc"/>
+<rect x="295.0" y="560.0" width="7.7" height="57.6" class="open" shape-rendering="crispEdges"/>
+<rect x="371.8" y="571.5" width="7.7" height="57.6" class="open" shape-rendering="crispEdges"/>
+<rect x="146.9" y="11.5" width="2.9" height="60.2" class="leaf"/>
+<path d="M 89.6 11.5 A 60.2 60.2 0 0 0 148.2 71.7" class="arc"/>
+<rect x="92.8" y="230.4" width="57.6" height="2.9" class="leaf"/>
+<path d="M 150.4 288.0 A 57.6 57.6 0 0 1 92.8 232.0" class="arc"/>
+<rect x="215.0" y="419.5" width="57.6" height="2.9" class="leaf"/>
+<path d="M 215.0 364.8 A 57.6 57.6 0 0 1 272.6 420.8" class="arc"/>
 <rect x="461.4" y="102.4" width="57.6" height="2.9" class="leaf"/>
 <path d="M 519.0 160.0 A 57.6 57.6 0 0 1 461.4 104.0" class="arc"/>
-<rect x="241.3" y="841.9" width="57.6" height="2.9" class="leaf"/>
-<path d="M 298.9 787.2 A 57.6 57.6 0 0 0 241.3 843.2" class="arc"/>
-<rect x="489.9" y="575.4" width="2.9" height="57.6" class="leaf"/>
-<path d="M 435.2 633.0 A 57.6 57.6 0 0 1 491.2 575.4" class="arc"/>
+<rect x="298.9" y="614.7" width="57.6" height="2.9" class="leaf"/>
+<path d="M 298.9 560.0 A 57.6 57.6 0 0 1 356.5 616.0" class="arc"/>
+<rect x="375.7" y="626.2" width="57.6" height="2.9" class="leaf"/>
+<path d="M 375.7 571.5 A 57.6 57.6 0 0 1 433.3 627.5" class="arc"/>
 <text x="46.1" y="107.5" class="tiny" text-anchor="middle">up</text>
 <text transform="translate(46.1 219.8) rotate(-90)" class="tiny" text-anchor="middle">main stair · cellar flight below</text>
-<text x="131.2" y="94.2" class="rname" text-anchor="middle">Entrance hall</text>
-<text x="131.2" y="109.2" class="rarea" text-anchor="middle">7.4 m²</text>
-<text x="121.6" y="209.4" class="rname" text-anchor="middle">Guest WC</text>
-<text x="121.6" y="224.4" class="rarea" text-anchor="middle">2.3 m²</text>
-<text x="138.9" y="315.0" class="rname" text-anchor="middle">Cupboard</text>
-<text x="138.9" y="330.0" class="rarea" text-anchor="middle">1.5 m²</text>
-<text x="112.0" y="388.6" class="rname" text-anchor="middle">Cellar stair lobby</text>
-<text x="112.0" y="403.6" class="rarea" text-anchor="middle">3.3 m²</text>
+<text x="140.8" y="107.0" class="rname" text-anchor="middle">Entrance hall</text>
+<text x="140.8" y="122.0" class="rarea" text-anchor="middle">6.6 m²</text>
+<text x="140.8" y="135.0" class="rsub" text-anchor="middle">open to the kitchen</text>
+<text x="116.2" y="315.0" class="rname" text-anchor="middle">Corridor</text>
+<text x="116.2" y="330.0" class="rarea" text-anchor="middle">2.5 m²</text>
+<text x="182.7" y="251.0" class="rname" text-anchor="middle">Guest WC</text>
+<text x="182.7" y="266.0" class="rarea" text-anchor="middle">2.1 m²</text>
+<text x="124.8" y="385.4" class="rname" text-anchor="middle">Cellar stair lobby</text>
+<text x="124.8" y="400.4" class="rarea" text-anchor="middle">3.6 m²</text>
 <text x="46.1" y="336.0" class="tiny" text-anchor="middle">down</text>
-<text transform="translate(193.3 71.0) rotate(-90)" class="flabel" text-anchor="middle">Wardrobe 1.5</text>
-<text x="115.2" y="263.5" class="flabel" text-anchor="middle">WC</text>
-<text x="137.6" y="372.6" class="flabel" text-anchor="middle">Coats · boots</text>
-<text x="288.0" y="455.8" class="rname" text-anchor="middle">Living · dining · kitchen</text>
-<text x="288.0" y="470.8" class="rarea" text-anchor="middle">48.7 m²</text>
-<text x="288.0" y="483.8" class="rsub" text-anchor="middle">67 m² with the lounge</text>
-<text x="108.8" y="756.6" class="rname" text-anchor="middle">Living · lounge</text>
-<text x="108.8" y="771.6" class="rarea" text-anchor="middle">18.9 m²</text>
-<text x="412.8" y="652.9" class="rname" text-anchor="middle">Bedroom EG</text>
-<text x="412.8" y="667.9" class="rarea" text-anchor="middle">10.9 m²</text>
-<text x="444.8" y="587.0" class="rname" text-anchor="middle">En suite</text>
-<text x="444.8" y="602.0" class="rarea" text-anchor="middle">3.8 m²</text>
-<text transform="translate(222.1 71.0) rotate(-90)" class="flabel" text-anchor="middle">Pantry</text>
-<text x="373.1" y="45.2" class="flabel" text-anchor="middle">Kitchen run 4.2 m</text>
-<text x="488.3" y="83.0" class="flabel" text-anchor="middle">Boots</text>
-<text x="352.0" y="175.8" class="flabel" text-anchor="middle">Island 2.4 × 1.2</text>
-<text x="358.4" y="342.2" class="flabel" text-anchor="middle">Table 2.0 × 1.0</text>
-<text x="46.1" y="636.6" class="flabel" text-anchor="middle">Sofa 2.0 × 1.0</text>
-<text x="275.2" y="559.8" class="flabel" text-anchor="middle">Sofa 2.0 × 1.0</text>
-<text x="134.4" y="649.4" class="flabel" text-anchor="middle">Coffee table</text>
-<text transform="translate(285.4 697.6) rotate(-90)" class="flabel" text-anchor="middle">TV</text>
+<text transform="translate(212.5 71.0) rotate(-90)" class="flabel" text-anchor="middle">Wardrobe 1.5</text>
+<text x="182.7" y="328.1" class="flabel" text-anchor="middle">WC</text>
+<text x="313.6" y="443.0" class="rname" text-anchor="middle">Living · dining · kitchen</text>
+<text x="313.6" y="458.0" class="rarea" text-anchor="middle">40.7 m²</text>
+<text x="313.6" y="471.0" class="rsub" text-anchor="middle">62 m² with the lounge</text>
+<text x="112.6" y="788.6" class="rname" text-anchor="middle">Living · lounge</text>
+<text x="112.6" y="803.6" class="rarea" text-anchor="middle">21.2 m²</text>
+<text x="403.2" y="647.8" class="rname" text-anchor="middle">Bedroom EG</text>
+<text x="403.2" y="662.8" class="rarea" text-anchor="middle">14.2 m²</text>
+<text x="403.2" y="675.8" class="rsub" text-anchor="middle">incl. the entry bay</text>
+<text x="412.8" y="583.8" class="rname" text-anchor="middle">En suite</text>
+<text x="412.8" y="598.8" class="rarea" text-anchor="middle">3.8 m²</text>
+<text transform="translate(241.3 42.2) rotate(-90)" class="flabel" text-anchor="middle">Fridge · oven</text>
+<text x="382.4" y="45.2" class="flabel" text-anchor="middle">Kitchen run 3.9 m</text>
+<text x="364.8" y="175.8" class="flabel" text-anchor="middle">Island 2.4 × 1.2</text>
+<text x="377.6" y="361.4" class="flabel" text-anchor="middle">Table 2.0 × 1.0</text>
+<text x="46.1" y="662.2" class="flabel" text-anchor="middle">Sofa 2.0 × 1.0</text>
+<text x="147.2" y="540.6" class="flabel" text-anchor="middle">Sofa 2.0 × 1.0</text>
+<text x="134.4" y="662.2" class="flabel" text-anchor="middle">Coffee table</text>
+<text transform="translate(285.4 716.8) rotate(-90)" class="flabel" text-anchor="middle">TV</text>
 <text transform="translate(30.1 489.6) rotate(-90)" class="flabel" text-anchor="middle">Shelves</text>
-<text x="424.3" y="729.4" class="flabel" text-anchor="middle">Bed 1.6 × 2.0</text>
-<text transform="translate(334.7 700.8) rotate(-90)" class="flabel" text-anchor="middle">Wardrobe 2.0</text>
-<text x="345.6" y="838.2" class="flabel" text-anchor="middle">Desk</text>
-<text x="478.7" y="540.6" class="flabel" text-anchor="middle">Shower</text>
-<text x="425.6" y="532.9" class="flabel" text-anchor="middle">WC</text>
+<text x="337.3" y="540.8" class="flabel" text-anchor="middle">Wardrobe 1.1</text>
+<text x="424.3" y="732.6" class="flabel" text-anchor="middle">Bed 1.6 × 2.0</text>
+<text transform="translate(334.7 832.3) rotate(-90)" class="flabel" text-anchor="middle">Wardrobe 1.4</text>
+<text x="419.2" y="870.4" class="tiny" text-anchor="middle">armchair</text>
+<text x="411.5" y="540.6" class="flabel" text-anchor="middle">Shower</text>
+<text x="473.6" y="532.9" class="flabel" text-anchor="middle">WC</text>
 <g transform="translate(559.4 -22.4)"><polygon points="0,-15 5,6 0,2 -5,6" class="northp"/><text y="-19" class="dimt" text-anchor="middle">N</text></g>
 <rect x="0.0" y="958.1" width="32.0" height="5.8" class="sb-a"/>
 <rect x="32.0" y="958.1" width="32.0" height="5.8" class="sb-b"/>
@@ -196,7 +196,9 @@
 <line x1="530.6" y1="-59.5" x2="530.6" y2="-49.3" class="dim"/>
 <text x="265.3" y="-58.2" class="dimt" text-anchor="middle">8.29 outside</text>
 <text x="371.2" y="-9.0" class="note" text-anchor="middle">kitchen window, sill 1.20</text>
+<text transform="translate(544.6 544.0) rotate(-90)" class="note" text-anchor="middle">en suite, obscured glass</text>
 <text x="166.4" y="915.8" class="note" text-anchor="middle">glass front 3.6 m: lift-slide 3.0 + fixed pane</text>
+<text x="412.8" y="915.8" class="note" text-anchor="middle">bedroom window 1.9 m</text>
 <text x="119.7" y="-9.0" class="note" text-anchor="middle">entrance</text>
 <text transform="translate(544.6 131.2) rotate(-90)" class="note" text-anchor="middle">door from the garage</text>
 <line x1="-25.6" y1="23.0" x2="-25.6" y2="185.6" class="dim"/>
@@ -206,17 +208,10 @@
 <line x1="-25.6" y1="185.6" x2="-25.6" y2="193.3" class="dim"/>
 <line x1="-30.7" y1="185.6" x2="-20.5" y2="185.6" class="dim"/>
 <line x1="-30.7" y1="193.3" x2="-20.5" y2="193.3" class="dim"/>
-<line x1="-25.6" y1="193.3" x2="-25.6" y2="281.6" class="dim"/>
+<line x1="-25.6" y1="193.3" x2="-25.6" y2="346.2" class="dim"/>
 <line x1="-30.7" y1="193.3" x2="-20.5" y2="193.3" class="dim"/>
-<line x1="-30.7" y1="281.6" x2="-20.5" y2="281.6" class="dim"/>
-<text transform="translate(-30.1 237.4) rotate(-90)" class="dimt" text-anchor="middle">1.38</text>
-<line x1="-25.6" y1="281.6" x2="-25.6" y2="289.3" class="dim"/>
-<line x1="-30.7" y1="281.6" x2="-20.5" y2="281.6" class="dim"/>
-<line x1="-30.7" y1="289.3" x2="-20.5" y2="289.3" class="dim"/>
-<line x1="-25.6" y1="289.3" x2="-25.6" y2="346.2" class="dim"/>
-<line x1="-30.7" y1="289.3" x2="-20.5" y2="289.3" class="dim"/>
 <line x1="-30.7" y1="346.2" x2="-20.5" y2="346.2" class="dim"/>
-<text transform="translate(-30.1 317.8) rotate(-90)" class="dimt" text-anchor="middle">0.89</text>
+<text transform="translate(-30.1 269.8) rotate(-90)" class="dimt" text-anchor="middle">2.39</text>
 <line x1="-25.6" y1="346.2" x2="-25.6" y2="353.9" class="dim"/>
 <line x1="-30.7" y1="346.2" x2="-20.5" y2="346.2" class="dim"/>
 <line x1="-30.7" y1="353.9" x2="-20.5" y2="353.9" class="dim"/>
@@ -227,10 +222,10 @@
 <line x1="-25.6" y1="428.8" x2="-25.6" y2="436.5" class="dim"/>
 <line x1="-30.7" y1="428.8" x2="-20.5" y2="428.8" class="dim"/>
 <line x1="-30.7" y1="436.5" x2="-20.5" y2="436.5" class="dim"/>
-<line x1="-25.6" y1="436.5" x2="-25.6" y2="854.4" class="dim"/>
+<line x1="-25.6" y1="436.5" x2="-25.6" y2="877.4" class="dim"/>
 <line x1="-30.7" y1="436.5" x2="-20.5" y2="436.5" class="dim"/>
-<line x1="-30.7" y1="854.4" x2="-20.5" y2="854.4" class="dim"/>
-<text transform="translate(-30.1 645.4) rotate(-90)" class="dimt" text-anchor="middle">6.53</text>
+<line x1="-30.7" y1="877.4" x2="-20.5" y2="877.4" class="dim"/>
+<text transform="translate(-30.1 657.0) rotate(-90)" class="dimt" text-anchor="middle">6.89</text>
 <line x1="14.1" y1="935.7" x2="295.0" y2="935.7" class="dim"/>
 <line x1="14.1" y1="930.6" x2="14.1" y2="940.8" class="dim"/>
 <line x1="295.0" y1="930.6" x2="295.0" y2="940.8" class="dim"/>
@@ -242,7 +237,28 @@
 <line x1="302.7" y1="930.6" x2="302.7" y2="940.8" class="dim"/>
 <line x1="507.5" y1="930.6" x2="507.5" y2="940.8" class="dim"/>
 <text x="405.1" y="931.8" class="dimt" text-anchor="middle">3.20</text>
-<line x1="238.7" y1="-25.6" x2="507.5" y2="-25.6" class="dim"/>
-<line x1="238.7" y1="-30.7" x2="238.7" y2="-20.5" class="dim"/>
+<line x1="14.1" y1="-25.6" x2="78.1" y2="-25.6" class="dim"/>
+<line x1="14.1" y1="-30.7" x2="14.1" y2="-20.5" class="dim"/>
+<line x1="78.1" y1="-30.7" x2="78.1" y2="-20.5" class="dim"/>
+<text x="46.1" y="-29.4" class="dimt" text-anchor="middle">1.00</text>
+<line x1="78.1" y1="-25.6" x2="85.8" y2="-25.6" class="dim"/>
+<line x1="78.1" y1="-30.7" x2="78.1" y2="-20.5" class="dim"/>
+<line x1="85.8" y1="-30.7" x2="85.8" y2="-20.5" class="dim"/>
+<line x1="85.8" y1="-25.6" x2="146.6" y2="-25.6" class="dim"/>
+<line x1="85.8" y1="-30.7" x2="85.8" y2="-20.5" class="dim"/>
+<line x1="146.6" y1="-30.7" x2="146.6" y2="-20.5" class="dim"/>
+<text x="116.2" y="-29.4" class="dimt" text-anchor="middle">0.95</text>
+<line x1="146.6" y1="-25.6" x2="154.2" y2="-25.6" class="dim"/>
+<line x1="146.6" y1="-30.7" x2="146.6" y2="-20.5" class="dim"/>
+<line x1="154.2" y1="-30.7" x2="154.2" y2="-20.5" class="dim"/>
+<line x1="154.2" y1="-25.6" x2="211.2" y2="-25.6" class="dim"/>
+<line x1="154.2" y1="-30.7" x2="154.2" y2="-20.5" class="dim"/>
+<line x1="211.2" y1="-30.7" x2="211.2" y2="-20.5" class="dim"/>
+<text x="182.7" y="-29.4" class="dimt" text-anchor="middle">0.89</text>
+<line x1="211.2" y1="-25.6" x2="218.9" y2="-25.6" class="dim"/>
+<line x1="211.2" y1="-30.7" x2="211.2" y2="-20.5" class="dim"/>
+<line x1="218.9" y1="-30.7" x2="218.9" y2="-20.5" class="dim"/>
+<line x1="218.9" y1="-25.6" x2="507.5" y2="-25.6" class="dim"/>
+<line x1="218.9" y1="-30.7" x2="218.9" y2="-20.5" class="dim"/>
 <line x1="507.5" y1="-30.7" x2="507.5" y2="-20.5" class="dim"/>
-<text x="373.1" y="-29.4" class="dimt" text-anchor="middle">4.20 kitchen run</text></g></svg>
+<text x="363.2" y="-29.4" class="dimt" text-anchor="middle">4.51 kitchen wall</text></g></svg>
