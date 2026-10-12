@@ -5,9 +5,12 @@ PLAN_CSS = r"""
 .plan .terrace{fill:var(--terrace)}
 .plan .win{fill:var(--winfill)} .plan .win-new{fill:var(--winfill);stroke:var(--accent);stroke-width:1.2}
 .plan .winl{stroke:var(--ink);stroke-width:.8}
-.plan .open{fill:var(--floor)} .plan .leaf{stroke:var(--ink);stroke-width:1.8} .plan .leaf-new{stroke:var(--accent);stroke-width:1.8}
-.plan .arc{fill:none;stroke:var(--ink);stroke-width:.7;stroke-dasharray:3 2}
-.plan .slide{stroke:var(--accent);stroke-width:3.5;stroke-dasharray:7 3}
+.plan .open{fill:var(--floor)} .plan .arc{fill:none;stroke:var(--ink);stroke-width:.7;stroke-dasharray:3 2}
+.plan .pocket{fill:var(--floor);fill-opacity:.55;stroke:var(--accent);stroke-width:1;stroke-dasharray:3 2}
+.plan .leaf{fill:var(--floor);stroke:var(--ink);stroke-width:1.1} .plan .leaf-new{fill:var(--floor);stroke:var(--accent);stroke-width:1.3}
+.plan .mirror{stroke:var(--accent);stroke-width:2.2}
+.plan .lamp{fill:none;stroke:var(--ink);stroke-width:.6}
+.plan .winf{stroke:var(--ink);stroke-width:.5}
 .plan .glass{stroke:var(--accent);stroke-width:2}
 .plan .f-bed{fill:var(--bedfill);stroke:var(--ink);stroke-width:.8} .plan .f-head{fill:var(--ink)}
 .plan .pillow{fill:var(--floor);stroke:var(--ink);stroke-width:.6}
@@ -21,7 +24,7 @@ PLAN_CSS = r"""
 .plan .stairs{fill:var(--floor);stroke:var(--ink);stroke-width:.8} .plan .void{fill:var(--voidfill);stroke:var(--ink);stroke-width:.5;stroke-dasharray:2 2}
 .plan .chim{fill:var(--chim)}
 .plan .thin{stroke:var(--ink);stroke-width:.6} .plan .hair{stroke:var(--ink);stroke-width:.35;opacity:.7}
-.plan .arrow{stroke:var(--ink);stroke-width:1.2;marker-end:url(#ah)}
+.plan .arrow{stroke:var(--ink);stroke-width:1;marker-end:url(#ah)}
 .plan .zone{fill:var(--zonefill);stroke:var(--zoneline);stroke-width:.7;stroke-dasharray:3 2}
 .plan .zone-path{fill:var(--pathfill);stroke:var(--zoneline);stroke-width:.7;stroke-dasharray:3 2}
 .plan .ztext{font-family:var(--mono);font-size:8.5px;fill:var(--zonetext);text-anchor:middle}
